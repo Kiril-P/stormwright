@@ -59,6 +59,7 @@ def main():
     args = parser.parse_args()
     cache = ROOT / 'work' / 'web-toolchain'
     cache.mkdir(parents=True, exist_ok=True)
+    (ROOT / 'work' / '.gdignore').touch()
     engine = args.godot or shutil.which('godot') or shutil.which('godot4')
     config = ROOT / 'tools' / 'godot.local.json'
     if not engine and config.exists():
@@ -91,6 +92,7 @@ def main():
                 (templates / name).write_bytes(source.read('templates/' + name))
     output = ROOT / 'build' / 'web'
     output.mkdir(parents=True, exist_ok=True)
+    (ROOT / 'build' / '.gdignore').touch()
     run([engine, '--headless', '--path', str(ROOT), '--editor', '--import'])
     run([engine, '--headless', '--path', str(ROOT), '--export-release', 'Web', str(output / 'index.html')])
     for name in ['index.html', 'index.js', 'index.wasm', 'index.pck']:

@@ -1,5 +1,7 @@
 # Stormwright
 
+**[Play in your browser](https://stormwright-one.vercel.app)** · [Public source](https://github.com/Kiril-P/stormwright)
+
 A single-player spellcraft arena built in Godot. Fight through the Obsidian Circuit,
 reshape three storm spells with eight modifiers, and confront the two-phase Tempest
 Warden. The Spell Laboratory lets you experiment with any three modifiers immediately.
@@ -61,6 +63,27 @@ an active run requires confirmation. Audio levels, camera shake, reduced flash,
 and reduced particles are saved locally, alongside the fastest victorious run.
 Runs themselves are not saved. Losing window focus pauses combat; release held
 attack buttons after resuming before casting again.
+
+## Browser deployment
+
+The public browser build runs on Vercel at **https://stormwright-one.vercel.app**.
+Use a desktop browser with WebGL 2 and a keyboard/mouse. Mobile touch controls
+are not implemented. Browser rendering uses Compatibility; desktop retains
+Forward+. Lighting and post-processing can therefore look different.
+Browser-local preferences require persistent site storage.
+
+`vercel.json` runs `python3 tools/build_web.py` and serves `build/web`. The build
+script pins Godot 4.7.2, verifies official archive SHA256 checksums, imports resources,
+and exports the Web preset. On Linux x86_64 it downloads the engine if absent.
+Locally, pass `--godot /path/to/Godot` or set `GODOT_BIN`. Generated exports, build
+caches, Vercel credentials and environment files are ignored by Git.
+
+```sh
+python3 tools/build_web.py --godot /path/to/Godot
+python3 -m http.server 8765 --directory build/web
+# Publish from an authenticated Vercel CLI:
+npx vercel --prod
+```
 
 ## Development and verification
 
