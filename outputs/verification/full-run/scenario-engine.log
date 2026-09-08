@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+SCENARIO_BEGIN run
+SCENARIO_WAVE 1
+SCENARIO_WAVE 2
+SCENARIO_WAVE 3
+SCENARIO_WAVE 4
+SCENARIO_WAVE 5
+SCENARIO_WAVE 6
+SCENARIO_RESULT {"checks":{"phase_two":true,"six_waves":true,"victory":true},"passed":true,"performance":{"frame_spikes":[],"frames":0,"frames_over_20ms":0,"max_ms":0.0,"measurement":"monotonic wall-clock intervals after 5s warmup; recording/fixed-FPS runs are not performance evidence","median_ms":0.0,"monitor_samples":[],"p95_ms":0.0,"p99_ms":0.0,"renderer":"forward_plus","settings":{"ambience":0.4,"effects":0.8,"master":0.8,"reduced_flash":false,"reduced_particles":false,"shake":0.45},"viewport_size":"(1600.0, 900.0)","wall_seconds":2.340613,"window_size":"(0, 0)"},"scenario":"run"}

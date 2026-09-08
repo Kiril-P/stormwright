@@ -1,0 +1,412 @@
+{
+  "source": "work/manual-review/session.json",
+  "elapsed_seconds": 345.152164,
+  "reason": "exit_tree",
+  "sample_count": 678,
+  "event_type_counts": {
+    "observer_start": 1,
+    "application_focus": 8,
+    "mouse_motion": 837,
+    "key": 215,
+    "ui_action": 30,
+    "capture_requested": 3,
+    "capture_complete": 3,
+    "mouse_button": 146,
+    "action_transition": 324
+  },
+  "state_sample_counts": {
+    "title": 159,
+    "lab": 275,
+    "pause": 242,
+    "confirm": 2
+  },
+  "ui_actions": [
+    {
+      "action": "lab",
+      "payload": null,
+      "t": 79.785519,
+      "type": "ui_action"
+    },
+    {
+      "action": "restart",
+      "payload": null,
+      "t": 184.793659,
+      "type": "ui_action"
+    },
+    {
+      "action": "cancel",
+      "payload": null,
+      "t": 184.843753,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "fork",
+      "t": 257.326245,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "fork",
+      "t": 258.951105,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "fork",
+      "t": 259.676202,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "pierce",
+      "t": 268.059215,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "echo",
+      "t": 270.842789,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "chain",
+      "t": 273.509135,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "echo",
+      "t": 275.050909,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "pierce",
+      "t": 275.359205,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "fork",
+      "t": 275.634171,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "overload",
+      "t": 276.334186,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "overload",
+      "t": 283.050764,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "gravity",
+      "t": 283.550767,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "gravity",
+      "t": 285.458974,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "aftershock",
+      "t": 285.867304,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "aftershock",
+      "t": 289.592421,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 289.909086,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 290.600728,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 294.409014,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 295.909002,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 296.508998,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 296.917323,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 297.309032,
+      "type": "ui_action"
+    },
+    {
+      "action": "lab_modifier",
+      "payload": "resonance",
+      "t": 297.603028,
+      "type": "ui_action"
+    },
+    {
+      "action": "restart",
+      "payload": null,
+      "t": 301.859111,
+      "type": "ui_action"
+    },
+    {
+      "action": "cancel",
+      "payload": null,
+      "t": 302.559247,
+      "type": "ui_action"
+    },
+    {
+      "action": "restart",
+      "payload": null,
+      "t": 303.600759,
+      "type": "ui_action"
+    },
+    {
+      "action": "confirm",
+      "payload": null,
+      "t": 304.043282,
+      "type": "ui_action"
+    }
+  ],
+  "action_transition_counts": {
+    "lance": 132,
+    "move_up": 28,
+    "move_left": 54,
+    "move_right": 58,
+    "move_down": 16,
+    "crown": 12,
+    "cataclysm": 6,
+    "dash": 12,
+    "pause_game": 6
+  },
+  "focus_events_with_neighboring_samples": [
+    {
+      "event": {
+        "focused": true,
+        "t": 0.141174,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 0.055983,
+        "paused": false,
+        "state": "title"
+      },
+      "following_sample": {
+        "t": 0.561264,
+        "paused": false,
+        "state": "title"
+      }
+    },
+    {
+      "event": {
+        "focused": false,
+        "t": 6.2134,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 6.108152,
+        "paused": false,
+        "state": "title"
+      },
+      "following_sample": {
+        "t": 6.611816,
+        "paused": false,
+        "state": "title"
+      }
+    },
+    {
+      "event": {
+        "focused": true,
+        "t": 79.76608,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 79.647715,
+        "paused": false,
+        "state": "title"
+      },
+      "following_sample": {
+        "t": 80.154535,
+        "paused": false,
+        "state": "lab"
+      }
+    },
+    {
+      "event": {
+        "focused": true,
+        "t": 121.372145,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 120.995174,
+        "paused": false,
+        "state": "lab"
+      },
+      "following_sample": {
+        "t": 121.502243,
+        "paused": false,
+        "state": "lab"
+      }
+    },
+    {
+      "event": {
+        "focused": false,
+        "t": 122.612968,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 122.51036,
+        "paused": false,
+        "state": "lab"
+      },
+      "following_sample": {
+        "t": 123.018388,
+        "paused": true,
+        "state": "pause"
+      }
+    },
+    {
+      "event": {
+        "focused": true,
+        "t": 184.65498,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 184.618501,
+        "paused": true,
+        "state": "pause"
+      },
+      "following_sample": {
+        "t": 185.126148,
+        "paused": true,
+        "state": "pause"
+      }
+    },
+    {
+      "event": {
+        "focused": true,
+        "t": 232.587911,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 231.109289,
+        "paused": false,
+        "state": "lab"
+      },
+      "following_sample": {
+        "t": 232.589123,
+        "paused": false,
+        "state": "lab"
+      }
+    },
+    {
+      "event": {
+        "focused": false,
+        "t": 320.043928,
+        "type": "application_focus"
+      },
+      "previous_sample": {
+        "t": 319.816724,
+        "paused": false,
+        "state": "lab"
+      },
+      "following_sample": {
+        "t": 320.316772,
+        "paused": true,
+        "state": "pause"
+      }
+    }
+  ],
+  "captures": [
+    {
+      "image_error": 0,
+      "stem": "capture-0001",
+      "t": 80.758389
+    },
+    {
+      "image_error": 0,
+      "stem": "capture-0002",
+      "t": 184.93415
+    },
+    {
+      "image_error": 0,
+      "stem": "capture-0003",
+      "t": 218.983357
+    }
+  ],
+  "last_game_state": {
+    "casts": 14,
+    "charge": 42.0,
+    "crown_shards": 0,
+    "elapsed": 16.0000000000004,
+    "enemies": [],
+    "health": 100.0,
+    "kills": 6,
+    "modifiers": [],
+    "pending": 0,
+    "player": [
+      -1.17092084884644,
+      5.8195276260376
+    ],
+    "projectiles": 0,
+    "state": "pause",
+    "telemetry": {
+      "boss_phase_two": false,
+      "children_omitted": 0,
+      "deaths": 0,
+      "direct_hits": 15,
+      "max_projectiles": 7,
+      "secondary_hits": 4,
+      "ultimate_spent": 1,
+      "waves_completed": 0
+    },
+    "wave": 0
+  },
+  "aim_alignment": {
+    "active_samples": 275,
+    "focused_in_viewport_samples": 206,
+    "unclamped_subset_samples": 111,
+    "max_unclamped_projected_error_viewport_px": 0.00013647875839232116,
+    "selection_rule": "state run/lab, focused, pointer within viewport bounds, aim_distance_from_pointer_ground below 0.001 world units"
+  },
+  "limitations": [
+    "Native title/lab/pause/confirmation interaction and partial keyboard play only; no full native run or guardian defeat.",
+    "The three F12 capture pointers were outside the viewport. Large clamped-aim offsets are not by themselves evidence of a projection bug.",
+    "Root review reported a stale CUA window reference preventing completion of the native walkthrough.",
+    "Raw session and selected images remain under work/manual-review; this file is a summary, not the complete input trace."
+  ]
+}

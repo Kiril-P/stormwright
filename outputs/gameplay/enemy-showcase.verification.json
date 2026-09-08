@@ -1,0 +1,20 @@
+{
+  "audio_codec" : "AAC 192kbps",
+  "audio_tracks" : 1,
+  "channels" : 2,
+  "complete_readback" : true,
+  "decoded_audio_frames" : 1306400,
+  "duration_seconds" : 27.216666666666665,
+  "encoded_video_frames" : 1633,
+  "fps" : 60,
+  "height" : 720,
+  "output" : "\/Users\/kirilpetrovski\/Documents\/coding\/Game Dev\/astra godot spell game\/outputs\/gameplay\/enemy-showcase.mp4",
+  "sample_rate" : 48000,
+  "source" : "\/Users\/kirilpetrovski\/Documents\/coding\/Game Dev\/astra godot spell game\/work\/enemy-final\/reel\/enemies.avi",
+  "source_pcm_frames" : 1306400,
+  "source_unchanged" : true,
+  "source_video_frames" : 1633,
+  "video_codec" : "H.264 High",
+  "video_tracks" : 1,
+  "width" : 1280
+}

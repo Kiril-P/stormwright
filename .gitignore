@@ -1,0 +1,23 @@
+# Godot generated caches
+.godot/
+**/.godot/
+*.tmp
+.DS_Store
+
+# Disposable development evidence and local executable location
+work/
+tools/godot.local.json
+__pycache__/
+
+# Hosting credentials, generated exports, and local editor state
+.vercel/
+.env
+.env.*
+!.env.example
+build/
+dist/
+node_modules/
+*.sb-*
+export_credentials.cfg
+.vercel
+.env*

@@ -1,0 +1,17 @@
+[
+  "/Users/kirilpetrovski/Downloads/Godot.app/Contents/MacOS/Godot",
+  "--log-file",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/full-run-rendered/scenario-engine.log",
+  "--path",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game",
+  "--windowed",
+  "--resolution",
+  "1280x720",
+  "--fixed-fps",
+  "60",
+  "--",
+  "--scenario=run",
+  "--output=/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/full-run-rendered",
+  "--seed=73",
+  "--save=/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/full-run-rendered/test-save.json"
+]

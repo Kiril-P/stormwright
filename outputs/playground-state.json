@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"input_moves_probe": true,
+		"input_reverses_probe": true,
+		"reset_restores_position": true,
+		"screenshot_saved": true,
+		"wall_blocks_probe": true
+	},
+	"fps": 32.0,
+	"frame": 145,
+	"history": [
+		{
+			"frame": 20,
+			"x": -2.00000095367432
+		},
+		{
+			"frame": 120,
+			"x": 0.14987625181675
+		}
+	],
+	"mode": "capture",
+	"node_count": 47.0,
+	"physics_seconds": 0.002949,
+	"probe_position": [
+		-3.0,
+		0.5,
+		0.0
+	],
+	"renderer": "gl_compatibility",
+	"seed": 73
+}

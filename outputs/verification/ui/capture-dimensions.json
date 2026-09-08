@@ -1,0 +1,165 @@
+{
+  "note": "Source PNGs remain in work/ui-check pending final image selection. Layout images were inspected in the UI implementation task; these are UI-only captures.",
+  "images": [
+    {
+      "source": "work/ui-check/confirm-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fe8ef809f13ee784dfe245a3c4543f7cb20210b510ea7bdef08bef5a0a7ff667"
+    },
+    {
+      "source": "work/ui-check/confirm.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f435be6051eb413abc8e482248057611a399e5efa7b032ea040b39b43393a1b6"
+    },
+    {
+      "source": "work/ui-check/defeat-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "4213031d4de1343e66a21eb969dddcb4a0c9d63cd9d3c65605f913c6d5920e48"
+    },
+    {
+      "source": "work/ui-check/defeat.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "64b153676c5e421c89728f541d1b6bb12d1cd127834bf5f4ca38bb11e9bb7c0a"
+    },
+    {
+      "source": "work/ui-check/hud-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "168b65618945018479f6a96eb132c9dc44ebfd5b25489d70e346e7c7add79ef5"
+    },
+    {
+      "source": "work/ui-check/hud.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "5e09b9ab8173d1c47b39e2f2300a6354afd0e996f7b152d7f5d9a0edd794d440"
+    },
+    {
+      "source": "work/ui-check/lab-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "c030e180c11f52069f24654c3a3aa14cffb760034316f221cd6fe596b68882ba"
+    },
+    {
+      "source": "work/ui-check/lab.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "341b11f5b3c5a024b94d66757db6ff458a75d7432b142dc440e14631ee00e087"
+    },
+    {
+      "source": "work/ui-check/pause-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "0c4201e3b073033c54ee6816311f38808ec50748aa5bbf85d3055d8d15f79655"
+    },
+    {
+      "source": "work/ui-check/pause.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "243e8d1f14810b06dbe5ae1efa16d3fb9c02166381a55db19b851b439664d285"
+    },
+    {
+      "source": "work/ui-check/replacement-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a23e6b87fe3f88996be4199653aee172476c5c3ca769ea8c28b5fd8f3f70ed9e"
+    },
+    {
+      "source": "work/ui-check/replacement.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "323e8f1b952bf2dfea1bdf6509974a414cb37a44658680f7d5b00336505552f2"
+    },
+    {
+      "source": "work/ui-check/settings-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fbadd809864a504142b4ceead3067a0b2f6545a97524ca2184217cb8b366f1fe"
+    },
+    {
+      "source": "work/ui-check/settings.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "37c4863c82dd4a04eed3bbb958f35cb3cbcdff03c69c8bcb03d8c687c0948869"
+    },
+    {
+      "source": "work/ui-check/title-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "e0e156543bf3468da929cc2495f76fbadd54abfce17b3b823e536e25d043a6e4"
+    },
+    {
+      "source": "work/ui-check/title.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "87c555d940132d8595b8bad4b7b5431d09b112e76a948112ffc615e61a506d03"
+    },
+    {
+      "source": "work/ui-check/upgrade-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "afc7cef7ee7ff420048f09df23bed8739a53ec1e657823e21c3acdb2531e7bc6"
+    },
+    {
+      "source": "work/ui-check/upgrade.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "2dda759a5be54ecdf8618ec265fdb505babbee350d0cf0d52a3e96b70bcf9e3f"
+    },
+    {
+      "source": "work/ui-check/victory-1080.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "7d2c482f2e1dd8f184841cda1dac8b30e68751b8b0b1eb1e24bd3d0f7f865445"
+    },
+    {
+      "source": "work/ui-check/victory.png",
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "fd775be899f909c41d1e997d4a42502470939857d6d0f0a44824064b98ec47df"
+    }
+  ]
+}

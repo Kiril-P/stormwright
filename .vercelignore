@@ -1,0 +1,9 @@
+.git
+.godot
+work
+outputs
+dev
+.agents
+build
+tools/godot.local.json
+.env*

@@ -1,0 +1,188 @@
+{
+	"aim_distance_from_pointer_ground": 48.2420616149902,
+	"aim_minus_mouse_viewport": [
+		-960.035400390625,
+		-941.8525390625
+	],
+	"aim_projected_viewport": [
+		937.464477539062,
+		178.147201538086
+	],
+	"camera_position": [
+		0.0,
+		18.0,
+		21.6499881744385
+	],
+	"camera_rotation": [
+		-0.708626508712769,
+		0.0,
+		0.0
+	],
+	"content_scale_factor": 1.0,
+	"content_scale_size": [
+		1600.0,
+		900.0
+	],
+	"focused": true,
+	"game": {
+		"casts": 0,
+		"charge": 100.0,
+		"crown_shards": 0,
+		"elapsed": 41.9666666666656,
+		"enemies": [
+			{
+				"hp": 85.0,
+				"id": 1,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					-3.0,
+					-1.5
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 115.0,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					0.0,
+					-1.5
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 245.0,
+				"id": 3,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					3.0,
+					-1.5
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 85.0,
+				"id": 4,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					-3.0,
+					-4.69999980926514
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 115.0,
+				"id": 5,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					0.0,
+					-4.69999980926514
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 245.0,
+				"id": 6,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					3.0,
+					-4.69999980926514
+				],
+				"state": "idle"
+			}
+		],
+		"health": 100.0,
+		"kills": 0,
+		"modifiers": [],
+		"pending": 0,
+		"player": [
+			0.0,
+			5.0
+		],
+		"projectiles": 0,
+		"state": "pause",
+		"telemetry": {
+			"boss_phase_two": false,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 0,
+			"max_projectiles": 0,
+			"secondary_hits": 0,
+			"ultimate_spent": 0,
+			"waves_completed": 0
+		},
+		"wave": 0
+	},
+	"game_aim": [
+		3.81845736503601,
+		0.0,
+		-10.9535102844238
+	],
+	"image_error": 0,
+	"image_file": "capture-0002.png",
+	"image_size": [
+		1280,
+		720
+	],
+	"input_armed": false,
+	"mouse_viewport": [
+		1897.49987792969,
+		1119.99975585938
+	],
+	"paused": true,
+	"physics_frame": 11051,
+	"player": [
+		0.0,
+		0.0,
+		5.0
+	],
+	"pointer_ground_intersection": [
+		30.4861087799072,
+		-0.000000238418579101562,
+		29.2476425170898
+	],
+	"process_frame": 24872,
+	"render_target_size": [
+		1024.0,
+		576.0
+	],
+	"screen_mouse_position": [
+		2390.0,
+		1552.0
+	],
+	"t": 184.933955,
+	"viewport_screen_transform": [
+		0.800000011920929,
+		0.0,
+		0.0,
+		0.800000011920929,
+		0.0,
+		0.0
+	],
+	"viewport_size": [
+		1600.0,
+		900.0
+	],
+	"viewport_stretch_transform": [
+		0.800000011920929,
+		0.0,
+		0.0,
+		0.800000011920929,
+		0.0,
+		0.0
+	],
+	"window_position": [
+		872.0,
+		656.0
+	],
+	"window_size": [
+		1280.0,
+		720.0
+	]
+}

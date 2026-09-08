@@ -1,0 +1,9 @@
+[
+  "/Users/kirilpetrovski/Downloads/Godot.app/Contents/MacOS/Godot",
+  "--log-file",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/full-run-rendered/import-engine.log",
+  "--headless",
+  "--path",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game",
+  "--import"
+]

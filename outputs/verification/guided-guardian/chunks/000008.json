@@ -1,0 +1,193 @@
+{
+	"boss_fixture_modifiers": [
+		"pierce",
+		"chain",
+		"aftershock"
+	],
+	"command": {
+		"aim": [
+			0.3,
+			-4.1
+		],
+		"duration": 1.5,
+		"hold_lance": true,
+		"id": 8.0,
+		"move": [
+			1.0,
+			0.0
+		]
+	},
+	"duration_seconds": 1.50833333333333,
+	"game": {
+		"aim": [
+			0.300000011920929,
+			-4.09999990463257
+		],
+		"casts": 26,
+		"charge": 28.0,
+		"choices": [],
+		"crown_cooldown": 0.0,
+		"crown_shards": 0,
+		"dash_cooldown": 0.0,
+		"elapsed": 12.5666666666669,
+		"enemies": [
+			{
+				"hp": 1032.0,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					0.443720489740372,
+					-3.89149522781372
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 115.0,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					9.36233901977539,
+					1.61139905452728
+				],
+				"state": "spawn"
+			}
+		],
+		"enemy_details": [
+			{
+				"attack": "fan",
+				"attack_direction": "(-0.456794, 0.0, 0.889572)",
+				"attack_origin": "(0.289274, 0.0, -4.069569)",
+				"attack_target": [
+					-3.30499935150146,
+					2.93000459671021
+				],
+				"cooldown": 0.516666666666665,
+				"hp": 1032.0,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					0.443720489740372,
+					-3.89149522781372
+				],
+				"state": "idle",
+				"timer": -0.399999999999999
+			},
+			{
+				"attack": "",
+				"attack_direction": "(0.0, 0.0, 0.0)",
+				"attack_origin": "(9.362339, 0.0, 1.611399)",
+				"attack_target": [
+					0.0,
+					0.0
+				],
+				"cooldown": 0.716994867722193,
+				"hp": 115.0,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					9.36233901977539,
+					1.61139905452728
+				],
+				"state": "spawn",
+				"timer": 0.516666666666665
+			}
+		],
+		"hazard_details": [],
+		"health": 100.0,
+		"kills": 0,
+		"lance_cooldown": 0.5,
+		"modifiers": [
+			"pierce",
+			"chain",
+			"aftershock"
+		],
+		"pending": 1,
+		"pending_modifier": "",
+		"player": [
+			4.92999744415283,
+			2.93000459671021
+		],
+		"projectiles": 0,
+		"spawn_queue": [
+			{
+				"kind": "shardling",
+				"time": 12.7833333333334
+			},
+			{
+				"kind": "channeler",
+				"time": 13.3833333333334
+			},
+			{
+				"kind": "shardling",
+				"time": 13.9833333333334
+			}
+		],
+		"state": "run",
+		"telemetry": {
+			"boss_phase_two": true,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 34,
+			"max_projectiles": 12,
+			"secondary_hits": 2,
+			"ultimate_spent": 1,
+			"waves_completed": 0
+		},
+		"wave": 6
+	},
+	"id": 8,
+	"input_log": [
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"aim": [
+					0.300000011920929,
+					-4.09999990463257
+				],
+				"duration": 1.5,
+				"state": "run"
+			},
+			"event": "begin",
+			"physics_frame": 12633
+		},
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"lance": true,
+				"movement": [
+					1.0,
+					0.0
+				],
+				"one_shots": []
+			},
+			"event": "named_inputs",
+			"physics_frame": 12635
+		},
+		{
+			"at_seconds": 0.0333333333333333,
+			"data": {},
+			"event": "release_one_shots",
+			"physics_frame": 12637
+		},
+		{
+			"at_seconds": 1.50833333333333,
+			"data": {
+				"elapsed": 1.50833333333333,
+				"state": "run"
+			},
+			"event": "end",
+			"physics_frame": 12725
+		}
+	],
+	"label": "chunk",
+	"last_command_id": 8,
+	"mode": "boss",
+	"png": "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000008.png",
+	"rendered": true,
+	"review_paused": true,
+	"scope": "Agent-directed application-level review, with fixed manually supplied aim and bounded named inputs. No autonomous target selection, combat stat overrides, or human-playtest claim. OS focus behavior is not exercised by this adapter."
+}

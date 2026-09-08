@@ -1,0 +1,19 @@
+{
+	"best": {
+		"elapsed": 107.499999999995,
+		"kills": 101,
+		"modifiers": [
+			"pierce",
+			"overload",
+			"aftershock"
+		]
+	},
+	"settings": {
+		"ambience": 0.4,
+		"effects": 0.8,
+		"master": 0.8,
+		"reduced_flash": false,
+		"reduced_particles": false,
+		"shake": 0.45
+	}
+}

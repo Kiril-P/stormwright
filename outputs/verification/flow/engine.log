@@ -1,0 +1,80 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+FLOW_CHECK PASS isolated_save_path_0
+FLOW_CHECK PASS no_scenario_focus_bypass
+FLOW_CHECK PASS missing_save_defaults
+FLOW_CHECK PASS upgrade_0_three_distinct_offers
+FLOW_CHECK PASS upgrade_0_healing_charge
+FLOW_CHECK PASS upgrade_0_combat_input_isolated
+FLOW_CHECK PASS upgrade_0_invalid_choice_rejected
+FLOW_CHECK PASS upgrade_0_choice_equipped
+FLOW_CHECK PASS upgrade_0_held_cast_does_not_leak
+FLOW_CHECK PASS upgrade_0_release_rearms_casting
+FLOW_CHECK PASS upgrade_1_three_distinct_offers
+FLOW_CHECK PASS upgrade_1_healing_charge
+FLOW_CHECK PASS upgrade_1_combat_input_isolated
+FLOW_CHECK PASS upgrade_1_invalid_choice_rejected
+FLOW_CHECK PASS upgrade_1_choice_equipped
+FLOW_CHECK PASS upgrade_1_held_cast_does_not_leak
+FLOW_CHECK PASS upgrade_1_release_rearms_casting
+FLOW_CHECK PASS upgrade_2_three_distinct_offers
+FLOW_CHECK PASS upgrade_2_healing_charge
+FLOW_CHECK PASS upgrade_2_combat_input_isolated
+FLOW_CHECK PASS upgrade_2_invalid_choice_rejected
+FLOW_CHECK PASS upgrade_2_choice_equipped
+FLOW_CHECK PASS upgrade_2_held_cast_does_not_leak
+FLOW_CHECK PASS upgrade_2_release_rearms_casting
+FLOW_CHECK PASS replacement_preview_preserves_build
+FLOW_CHECK PASS replacement_invalid_slot_rejected
+FLOW_CHECK PASS replacement_applies_exactly_one_slot
+FLOW_CHECK PASS skip_keeps_build_enters_finale
+FLOW_CHECK PASS pause_freezes_pending_spells_cooldowns_and_movement
+FLOW_CHECK PASS settings_from_pause_preserves_pause
+FLOW_CHECK PASS settings_back_returns_to_pause
+FLOW_CHECK PASS resume_restores_run
+FLOW_CHECK PASS focus_loss_pauses_run
+FLOW_CHECK PASS focus_return_does_not_auto_resume
+FLOW_CHECK PASS focus_resume_held_mouse_does_not_cast
+FLOW_CHECK PASS focus_resume_release_rearms
+FLOW_CHECK PASS active_restart_requests_confirmation
+FLOW_CHECK PASS cancel_restart_keeps_run
+FLOW_CHECK PASS confirmed_restart_cleans_run
+FLOW_CHECK PASS active_title_requests_confirmation
+FLOW_CHECK PASS confirmed_title_cleans_combat
+FLOW_CHECK PASS settings_from_title_returns_unpaused_title
+FLOW_CHECK PASS lab_equips_three_unique_laws
+FLOW_CHECK PASS lab_fourth_law_rejected
+FLOW_CHECK PASS lab_remove_and_add
+FLOW_CHECK PASS lab_refill_restores_resources
+FLOW_CHECK PASS lab_uses_all_three_production_spells
+FLOW_CHECK PASS lab_reset_fixture_has_live_spell_work
+FLOW_CHECK PASS lab_reset_cleans_transients_preserves_build
+FLOW_CHECK PASS lab_reset_reclaims_old_targets
+FLOW_CHECK PASS focus_loss_pauses_lab
+FLOW_CHECK PASS lab_resume_restores_lab_controls
+FLOW_CHECK PASS lab_title_clears_mode_and_build
+FLOW_CHECK PASS settings_immediately_apply
+FLOW_CHECK PASS settings_write_file
+FLOW_CHECK PASS defeat_result_reports_actual_wave
+FLOW_CHECK PASS defeat_restart_is_clean
+FLOW_CHECK PASS first_victory_result_has_current_record
+FLOW_CHECK PASS slower_victory_retains_best
+FLOW_CHECK PASS lab_cannot_replace_best_record
+FLOW_CHECK PASS lab_does_not_modify_save_file
+GAME_READY {"renderer":"forward_plus","seed":73}
+FLOW_CHECK PASS isolated_save_path_61
+FLOW_CHECK PASS relaunch_loads_all_preferences
+FLOW_CHECK PASS relaunch_loads_best_summary
+FLOW_CHECK PASS lab_did_not_write_record
+GAME_READY {"renderer":"forward_plus","seed":73}
+FLOW_CHECK PASS isolated_save_path_65
+FLOW_CHECK PASS malformed_save_falls_back_and_launches
+FLOW_CHECK PASS malformed_save_does_not_prevent_play
+GAME_READY {"renderer":"forward_plus","seed":73}
+FLOW_CHECK PASS isolated_save_path_68
+FLOW_CHECK PASS invalid_save_types_fall_back_and_values_clamp
+GAME_READY {"renderer":"forward_plus","seed":73}
+FLOW_CHECK PASS isolated_save_path_70
+FLOW_CHECK PASS missing_save_relaunch_defaults
+FLOW_RESULT {"checks":{"active_restart_requests_confirmation":true,"active_title_requests_confirmation":true,"cancel_restart_keeps_run":true,"confirmed_restart_cleans_run":true,"confirmed_title_cleans_combat":true,"defeat_restart_is_clean":true,"defeat_result_reports_actual_wave":true,"first_victory_result_has_current_record":true,"focus_loss_pauses_lab":true,"focus_loss_pauses_run":true,"focus_resume_held_mouse_does_not_cast":true,"focus_resume_release_rearms":true,"focus_return_does_not_auto_resume":true,"invalid_save_types_fall_back_and_values_clamp":true,"isolated_save_path_0":true,"isolated_save_path_61":true,"isolated_save_path_65":true,"isolated_save_path_68":true,"isolated_save_path_70":true,"lab_cannot_replace_best_record":true,"lab_did_not_write_record":true,"lab_does_not_modify_save_file":true,"lab_equips_three_unique_laws":true,"lab_fourth_law_rejected":true,"lab_refill_restores_resources":true,"lab_remove_and_add":true,"lab_reset_cleans_transients_preserves_build":true,"lab_reset_fixture_has_live_spell_work":true,"lab_reset_reclaims_old_targets":true,"lab_resume_restores_lab_controls":true,"lab_title_clears_mode_and_build":true,"lab_uses_all_three_production_spells":true,"malformed_save_does_not_prevent_play":true,"malformed_save_falls_back_and_launches":true,"missing_save_defaults":true,"missing_save_relaunch_defaults":true,"no_scenario_focus_bypass":true,"pause_freezes_pending_spells_cooldowns_and_movement":true,"relaunch_loads_all_preferences":true,"relaunch_loads_best_summary":true,"replacement_applies_exactly_one_slot":true,"replacement_invalid_slot_rejected":true,"replacement_preview_preserves_build":true,"resume_restores_run":true,"settings_back_returns_to_pause":true,"settings_from_pause_preserves_pause":true,"settings_from_title_returns_unpaused_title":true,"settings_immediately_apply":true,"settings_write_file":true,"skip_keeps_build_enters_finale":true,"slower_victory_retains_best":true,"upgrade_0_choice_equipped":true,"upgrade_0_combat_input_isolated":true,"upgrade_0_healing_charge":true,"upgrade_0_held_cast_does_not_leak":true,"upgrade_0_invalid_choice_rejected":true,"upgrade_0_release_rearms_casting":true,"upgrade_0_three_distinct_offers":true,"upgrade_1_choice_equipped":true,"upgrade_1_combat_input_isolated":true,"upgrade_1_healing_charge":true,"upgrade_1_held_cast_does_not_leak":true,"upgrade_1_invalid_choice_rejected":true,"upgrade_1_release_rearms_casting":true,"upgrade_1_three_distinct_offers":true,"upgrade_2_choice_equipped":true,"upgrade_2_combat_input_isolated":true,"upgrade_2_healing_charge":true,"upgrade_2_held_cast_does_not_leak":true,"upgrade_2_invalid_choice_rejected":true,"upgrade_2_release_rearms_casting":true,"upgrade_2_three_distinct_offers":true},"details":{"invalid_save_types_fall_back_and_values_clamp":{"ambience":0.0,"effects":1.0,"master":0.8,"reduced_flash":false,"reduced_particles":false,"shake":0.45},"lab_reset_fixture_has_live_spell_work":{"pending":1,"projectiles":2,"shards":7},"pause_freezes_pending_spells_cooldowns_and_movement":{"crown_shards":7,"pending":2},"persistence_record_fixture":{"elapsed":612.5,"kills":99,"modifiers":["fork","overload","chain"]},"relaunch_loads_all_preferences":{"ambience":0.17,"effects":0.62,"master":0.31,"reduced_flash":true,"reduced_particles":true,"shake":0.0},"relaunch_loads_best_summary":{"elapsed":612.5,"kills":99.0,"modifiers":["fork","overload","chain"]},"scope":"Production transitions and save/load re-instantiation. This is not normal-run victory, OS-driven focus, rendered UI, or performance evidence. Laboratory reset exercised live Crown projectiles and pending Cataclysm, not a guardian pulse hazard.","upgrade_fixture_final_build":["fork","aftershock","chain"]},"elapsed_seconds":2.271363,"passed":true,"save_path":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/flow-checks/check-save.json"}

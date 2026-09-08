@@ -1,0 +1,3466 @@
+{
+	"capture_failures": [],
+	"movie_fps_warning": "MovieWriter forces a fixed frame rate. Do not use this recording as performance evidence.",
+	"passed": true,
+	"rendered": true,
+	"scope": "Staged production laboratory spell requests, normal update loops, real collision/damage/recoil/death. Stationary target placement and ultimate refills are fixtures. Production HUD is hidden for this visual study. Does not prove normal-run progression, performance, UI layout or artistic quality.",
+	"seed": 7331,
+	"sequence_seconds": 25.1166666666665,
+	"stages": [
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "01-lance-charge",
+					"path": "res://work/visual-reel/01-lance-charge.png",
+					"written": true
+				},
+				{
+					"label": "01-lance-discharge",
+					"path": "res://work/visual-reel/01-lance-discharge.png",
+					"written": true
+				},
+				{
+					"label": "01-lance-impact",
+					"path": "res://work/visual-reel/01-lance-impact.png",
+					"written": true
+				},
+				{
+					"label": "01-lance-aftermath",
+					"path": "res://work/visual-reel/01-lance-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 3.0,
+			"final": {
+				"casts": 3,
+				"charge": 8.4,
+				"crown_shards": 0,
+				"elapsed": 2.99999999999999,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 1,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 3,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "01-lance",
+			"initial": {
+				"casts": 0,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 85.0,
+						"id": 1,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							0.0,
+							-3.0
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 0.566666666666667,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 1,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									0.0,
+									-3.0
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "charge",
+					"stage_seconds": 0.583333333333333
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 2.8,
+						"crown_shards": 0,
+						"elapsed": 0.700000000000001,
+						"enemies": [
+							{
+								"hp": 51.0,
+								"id": 1,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.0142527520656586,
+									-3.23122787475586
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 1,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "discharge",
+					"stage_seconds": 0.716666666666667
+				},
+				{
+					"game": {
+						"casts": 2,
+						"charge": 5.6,
+						"crown_shards": 0,
+						"elapsed": 1.46666666666667,
+						"enemies": [
+							{
+								"hp": 17.0,
+								"id": 1,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.056190699338913,
+									-3.91160321235657
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 2,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "impact",
+					"stage_seconds": 1.48333333333333
+				},
+				{
+					"game": {
+						"casts": 3,
+						"charge": 8.4,
+						"crown_shards": 0,
+						"elapsed": 2.76666666666666,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 1,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 3,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 2.78333333333333
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.516666666666667,
+					"charge_after_request": 0.0,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 1.25,
+					"charge_after_request": 2.8,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 2.01666666666666,
+					"charge_after_request": 5.6,
+					"spell": "lance"
+				}
+			],
+			"start_seconds": 0.0,
+			"title": "STORM LANCE"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "02-crown-gather",
+					"path": "res://work/visual-reel/02-crown-gather.png",
+					"written": true
+				},
+				{
+					"label": "02-crown-orbit-moving-caster",
+					"path": "res://work/visual-reel/02-crown-orbit-moving-caster.png",
+					"written": true
+				},
+				{
+					"label": "02-crown-volley",
+					"path": "res://work/visual-reel/02-crown-volley.png",
+					"written": true
+				},
+				{
+					"label": "02-crown-fracture",
+					"path": "res://work/visual-reel/02-crown-fracture.png",
+					"written": true
+				},
+				{
+					"label": "02-crown-aftermath",
+					"path": "res://work/visual-reel/02-crown-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 3.5,
+			"final": {
+				"casts": 1,
+				"charge": 19.6,
+				"crown_shards": 0,
+				"elapsed": 3.51666666666666,
+				"enemies": [
+					{
+						"hp": 85.0,
+						"id": 2,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.5,
+							-2.20000004768372
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 61.0,
+						"id": 3,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							2.1114490032196,
+							-1.05373632907867
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 4.0,
+						"id": 4,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-2.25924253463745,
+							-2.05529975891113
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 88.0,
+						"id": 5,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-3.71391129493713,
+							-2.7006824016571
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 58.0,
+						"id": 6,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-1.89546084403992,
+							-4.49203252792358
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 7,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.75,
+							-3.93205070495605
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					-0.0000000596046447753906,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 7,
+					"max_projectiles": 7,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "02-crown",
+			"initial": {
+				"casts": 0,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 85.0,
+						"id": 2,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.5,
+							-2.20000004768372
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 3,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.75,
+							-0.46794918179512
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 4,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-1.75,
+							-0.46794918179512
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 5,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-3.5,
+							-2.20000004768372
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 6,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-1.75,
+							-3.93205070495605
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 7,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.75,
+							-3.93205070495605
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 7,
+						"elapsed": 0.633333333333334,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 2,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 3,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-0.46794918179512
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 4,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-0.46794918179512
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 5,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 6,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 7,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.933333396911621,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "gather",
+					"stage_seconds": 0.633333333333334
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 7,
+						"elapsed": 1.03333333333333,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 2,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 3,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-0.46794918179512
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 4,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-0.46794918179512
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 5,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 6,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 7,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.840000033378601,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "orbit-moving-caster",
+					"stage_seconds": 1.03333333333333
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 5.6,
+						"crown_shards": 2,
+						"elapsed": 1.65,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 2,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 88.0,
+								"id": 3,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75711917877197,
+									-0.530585050582886
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 58.0,
+								"id": 4,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.79878008365631,
+									-0.742474734783173
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 5,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 6,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 7,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							-0.0000000596046447753906,
+							4.5
+						],
+						"projectiles": 3,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 2,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "volley",
+					"stage_seconds": 1.65
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 14.0,
+						"crown_shards": 0,
+						"elapsed": 2.16666666666666,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 2,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 61.0,
+								"id": 3,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									2.1114490032196,
+									-1.05373632907867
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 31.0,
+								"id": 4,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-2.15977597236633,
+									-1.39102125167847
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 88.0,
+								"id": 5,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.71391129493713,
+									-2.7006824016571
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 6,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 7,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							-0.0000000596046447753906,
+							4.5
+						],
+						"projectiles": 2,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 5,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "fracture",
+					"stage_seconds": 2.16666666666666
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 19.6,
+						"crown_shards": 0,
+						"elapsed": 3.18333333333333,
+						"enemies": [
+							{
+								"hp": 85.0,
+								"id": 2,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.5,
+									-2.20000004768372
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 61.0,
+								"id": 3,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									2.1114490032196,
+									-1.05373632907867
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 4.0,
+								"id": 4,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-2.25924253463745,
+									-2.05529975891113
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 88.0,
+								"id": 5,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.71391129493713,
+									-2.7006824016571
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 58.0,
+								"id": 6,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-1.89546084403992,
+									-4.49203252792358
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 7,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.75,
+									-3.93205070495605
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							-0.0000000596046447753906,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 7,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 3.18333333333333
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.266666666666667,
+					"charge_after_request": 0.0,
+					"spell": "crown"
+				}
+			],
+			"start_seconds": 3.01666666666666,
+			"title": "STORM CROWN"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "03-cataclysm-mark",
+					"path": "res://work/visual-reel/03-cataclysm-mark.png",
+					"written": true
+				},
+				{
+					"label": "03-cataclysm-rupture",
+					"path": "res://work/visual-reel/03-cataclysm-rupture.png",
+					"written": true
+				},
+				{
+					"label": "03-cataclysm-rings-and-debris",
+					"path": "res://work/visual-reel/03-cataclysm-rings-and-debris.png",
+					"written": true
+				},
+				{
+					"label": "03-cataclysm-aftermath",
+					"path": "res://work/visual-reel/03-cataclysm-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 3.5,
+			"final": {
+				"casts": 1,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 3.51666666666666,
+				"enemies": [
+					{
+						"hp": 100.0,
+						"id": 8,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							4.57916641235352,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 100.0,
+						"id": 11,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-4.15442419052124,
+							-1.20629990100861
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 100.0,
+						"id": 14,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							2.9241189956665,
+							-6.2874116897583
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 4,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 7,
+					"ultimate_spent": 1,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "03-cataclysm",
+			"initial": {
+				"casts": 0,
+				"charge": 100.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 245.0,
+						"id": 8,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							2.90000009536743,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 9,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							1.80812036991119,
+							-0.967238128185272
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 10,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-0.645310699939728,
+							-0.465187430381775
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 11,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-2.61280965805054,
+							-1.87190222740173
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 12,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-2.61280965805054,
+							-4.12809753417969
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 13,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-0.645310699939728,
+							-5.53481245040894
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 14,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							1.80812036991119,
+							-5.03276205062866
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 0.916666666666668,
+						"enemies": [
+							{
+								"hp": 245.0,
+								"id": 8,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.90000009536743,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 9,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									1.80812036991119,
+									-0.967238128185272
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 10,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.645310699939728,
+									-0.465187430381775
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 245.0,
+								"id": 11,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-2.61280965805054,
+									-1.87190222740173
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 12,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-2.61280965805054,
+									-4.12809753417969
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 13,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.645310699939728,
+									-5.53481245040894
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 245.0,
+								"id": 14,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									1.80812036991119,
+									-5.03276205062866
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "mark",
+					"stage_seconds": 0.916666666666668
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 1.35,
+						"enemies": [
+							{
+								"hp": 100.0,
+								"id": 8,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									3.96166682243347,
+									-3.0
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": -60.0,
+								"id": 9,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									2.2157506942749,
+									-0.508963763713837
+								],
+								"state": "dead"
+							},
+							{
+								"hp": -60.0,
+								"id": 10,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.796625912189484,
+									0.129187345504761
+								],
+								"state": "dead"
+							},
+							{
+								"hp": 100.0,
+								"id": 11,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-3.58750796318054,
+									-1.45106995105743
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": -60.0,
+								"id": 12,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-3.17590069770813,
+									-4.3712158203125
+								],
+								"state": "dead"
+							},
+							{
+								"hp": -60.0,
+								"id": 13,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-0.796625912189484,
+									-6.12918758392334
+								],
+								"state": "dead"
+							},
+							{
+								"hp": 100.0,
+								"id": 14,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.51371955871582,
+									-5.82602453231812
+								],
+								"state": "stagger"
+							}
+						],
+						"health": 100.0,
+						"kills": 4,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 7,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "rupture",
+					"stage_seconds": 1.35
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 1.78333333333333,
+						"enemies": [
+							{
+								"hp": 100.0,
+								"id": 8,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									4.57916641235352,
+									-3.0
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 100.0,
+								"id": 11,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-4.15442419052124,
+									-1.20629990100861
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 100.0,
+								"id": 14,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.9241189956665,
+									-6.2874116897583
+								],
+								"state": "stagger"
+							}
+						],
+						"health": 100.0,
+						"kills": 4,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 7,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "rings-and-debris",
+					"stage_seconds": 1.78333333333333
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 3.21666666666666,
+						"enemies": [
+							{
+								"hp": 100.0,
+								"id": 8,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									4.57916641235352,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 100.0,
+								"id": 11,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-4.15442419052124,
+									-1.20629990100861
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 100.0,
+								"id": 14,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.9241189956665,
+									-6.2874116897583
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 4,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 7,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 3.21666666666666
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.516666666666667,
+					"charge_after_request": 0.0,
+					"spell": "cataclysm"
+				}
+			],
+			"start_seconds": 6.53333333333332,
+			"title": "CATACLYSM"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "04-fork-chain-three-paths-and-arcs",
+					"path": "res://work/visual-reel/04-fork-chain-three-paths-and-arcs.png",
+					"written": true
+				},
+				{
+					"label": "04-fork-chain-second-cast",
+					"path": "res://work/visual-reel/04-fork-chain-second-cast.png",
+					"written": true
+				},
+				{
+					"label": "04-fork-chain-aftermath",
+					"path": "res://work/visual-reel/04-fork-chain-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 3.25,
+			"final": {
+				"casts": 2,
+				"charge": 16.8,
+				"crown_shards": 0,
+				"elapsed": 3.26666666666666,
+				"enemies": [
+					{
+						"hp": 79.7488,
+						"id": 15,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-3.92648077011108,
+							-4.12873125076294
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 40.3088,
+						"id": 16,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-2.1264808177948,
+							-4.12873125076294
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 158.0688,
+						"id": 17,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.185387313365936,
+							-4.16028356552124
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 59.24,
+						"id": 18,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.98538732528687,
+							-4.16028356552124
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98.68,
+						"id": 19,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							3.56385517120361,
+							-3.58638715744019
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 66.0688,
+						"id": 20,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-4.02648067474365,
+							-1.72873187065125
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 21,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.70000004768372,
+							-0.600000023841858
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [
+					"fork",
+					"chain"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 6,
+					"max_projectiles": 0,
+					"secondary_hits": 12,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "04-fork-chain",
+			"initial": {
+				"casts": 0,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 115.0,
+						"id": 15,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-3.59999990463257,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 16,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-1.79999995231628,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 17,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 18,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.79999995231628,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 19,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							3.59999990463257,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 20,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-3.70000004768372,
+							-0.600000023841858
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 85.0,
+						"id": 21,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.70000004768372,
+							-0.600000023841858
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [
+					"fork",
+					"chain"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [
+				"fork",
+				"chain"
+			],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 8.4,
+						"crown_shards": 0,
+						"elapsed": 0.733333333333334,
+						"enemies": [
+							{
+								"hp": 89.2144,
+								"id": 15,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.67795395851135,
+									-3.26950788497925
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 69.4944,
+								"id": 16,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-1.87795388698578,
+									-3.26950788497925
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 201.5344,
+								"id": 17,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.044265054166317,
+									-3.27704167366028
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 95.28,
+								"id": 18,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.84426498413086,
+									-3.27704167366028
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 115.0,
+								"id": 19,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									3.59999990463257,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 75.5344,
+								"id": 20,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-3.7779541015625,
+									-0.869508028030396
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 21,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.70000004768372,
+									-0.600000023841858
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"fork",
+							"chain"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 3,
+							"max_projectiles": 0,
+							"secondary_hits": 6,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "three-paths-and-arcs",
+					"stage_seconds": 0.733333333333334
+				},
+				{
+					"game": {
+						"casts": 2,
+						"charge": 16.8,
+						"crown_shards": 0,
+						"elapsed": 1.78333333333333,
+						"enemies": [
+							{
+								"hp": 79.7488,
+								"id": 15,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.84119439125061,
+									-3.8338737487793
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 40.3088,
+								"id": 16,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-2.04119443893433,
+									-3.8338737487793
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 158.0688,
+								"id": 17,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.136958703398705,
+									-3.85718321800232
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 59.24,
+								"id": 18,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.93695867061615,
+									-3.85718321800232
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 98.68,
+								"id": 19,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									3.58273935317993,
+									-3.28002405166626
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 66.0688,
+								"id": 20,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-3.94119453430176,
+									-1.43387401103973
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 21,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.70000004768372,
+									-0.600000023841858
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"fork",
+							"chain"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 6,
+							"max_projectiles": 0,
+							"secondary_hits": 12,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "second-cast",
+					"stage_seconds": 1.78333333333333
+				},
+				{
+					"game": {
+						"casts": 2,
+						"charge": 16.8,
+						"crown_shards": 0,
+						"elapsed": 2.96666666666666,
+						"enemies": [
+							{
+								"hp": 79.7488,
+								"id": 15,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-3.92648077011108,
+									-4.12873125076294
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 40.3088,
+								"id": 16,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-2.1264808177948,
+									-4.12873125076294
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 158.0688,
+								"id": 17,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.185387313365936,
+									-4.16028356552124
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 59.24,
+								"id": 18,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.98538732528687,
+									-4.16028356552124
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 98.68,
+								"id": 19,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									3.56385517120361,
+									-3.58638715744019
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 66.0688,
+								"id": 20,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									-4.02648067474365,
+									-1.72873187065125
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 85.0,
+								"id": 21,
+								"kind": "shardling",
+								"phase": 1,
+								"position": [
+									3.70000004768372,
+									-0.600000023841858
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"fork",
+							"chain"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 6,
+							"max_projectiles": 0,
+							"secondary_hits": 12,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 2.96666666666666
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.516666666666667,
+					"charge_after_request": 0.0,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 1.56666666666667,
+					"charge_after_request": 8.4,
+					"spell": "lance"
+				}
+			],
+			"start_seconds": 10.0500000000001,
+			"title": "FORK + CHAIN"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "05-pierce-overload-first-pierce",
+					"path": "res://work/visual-reel/05-pierce-overload-first-pierce.png",
+					"written": true
+				},
+				{
+					"label": "05-pierce-overload-second-charge",
+					"path": "res://work/visual-reel/05-pierce-overload-second-charge.png",
+					"written": true
+				},
+				{
+					"label": "05-pierce-overload-third-hit-overload",
+					"path": "res://work/visual-reel/05-pierce-overload-third-hit-overload.png",
+					"written": true
+				},
+				{
+					"label": "05-pierce-overload-aftermath",
+					"path": "res://work/visual-reel/05-pierce-overload-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 3.75,
+			"final": {
+				"casts": 3,
+				"charge": 25.2,
+				"crown_shards": 0,
+				"elapsed": 3.76666666666666,
+				"enemies": [
+					{
+						"hp": 113.0,
+						"id": 22,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-0.043620802462101,
+							-0.174190416932106
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 113.0,
+						"id": 23,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-0.043620802462101,
+							-3.17419052124023
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 113.0,
+						"id": 24,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-0.043620802462101,
+							-6.17418956756592
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [
+					"pierce",
+					"overload"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 9,
+					"max_projectiles": 0,
+					"secondary_hits": 3,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "05-pierce-overload",
+			"initial": {
+				"casts": 0,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 245.0,
+						"id": 22,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							1.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 23,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							-2.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 24,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							-5.0
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [
+					"pierce",
+					"overload"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [
+				"pierce",
+				"overload"
+			],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 8.4,
+						"crown_shards": 0,
+						"elapsed": 0.583333333333333,
+						"enemies": [
+							{
+								"hp": 211.0,
+								"id": 22,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.012096262536943,
+									0.674391210079193
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 211.0,
+								"id": 23,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.012096262536943,
+									-2.32560873031616
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 211.0,
+								"id": 24,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.012096262536943,
+									-5.32560873031616
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"pierce",
+							"overload"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 3,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "first-pierce",
+					"stage_seconds": 0.583333333333333
+				},
+				{
+					"game": {
+						"casts": 2,
+						"charge": 16.8,
+						"crown_shards": 0,
+						"elapsed": 1.28333333333333,
+						"enemies": [
+							{
+								"hp": 177.0,
+								"id": 22,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.033906664699316,
+									0.0872960090637207
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 177.0,
+								"id": 23,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.033906664699316,
+									-2.91270399093628
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 177.0,
+								"id": 24,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.033906664699316,
+									-5.91270351409912
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"pierce",
+							"overload"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 6,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "second-charge",
+					"stage_seconds": 1.28333333333333
+				},
+				{
+					"game": {
+						"casts": 3,
+						"charge": 25.2,
+						"crown_shards": 0,
+						"elapsed": 1.98333333333333,
+						"enemies": [
+							{
+								"hp": 113.0,
+								"id": 22,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-0.174190416932106
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 113.0,
+								"id": 23,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-3.17419052124023
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 113.0,
+								"id": 24,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-6.17418956756592
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"pierce",
+							"overload"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 9,
+							"max_projectiles": 0,
+							"secondary_hits": 3,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "third-hit-overload",
+					"stage_seconds": 1.98333333333333
+				},
+				{
+					"game": {
+						"casts": 3,
+						"charge": 25.2,
+						"crown_shards": 0,
+						"elapsed": 3.31666666666666,
+						"enemies": [
+							{
+								"hp": 113.0,
+								"id": 22,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-0.174190416932106
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 113.0,
+								"id": 23,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-3.17419052124023
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 113.0,
+								"id": 24,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-0.043620802462101,
+									-6.17418956756592
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"pierce",
+							"overload"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 9,
+							"max_projectiles": 0,
+							"secondary_hits": 3,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 3.31666666666666
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.35,
+					"charge_after_request": 0.0,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 1.05,
+					"charge_after_request": 8.4,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 1.76666666666667,
+					"charge_after_request": 16.8,
+					"spell": "lance"
+				}
+			],
+			"start_seconds": 13.3166666666669,
+			"title": "PIERCE + OVERLOAD"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "06-gravity-aftershock-gravity-pull",
+					"path": "res://work/visual-reel/06-gravity-aftershock-gravity-pull.png",
+					"written": true
+				},
+				{
+					"label": "06-gravity-aftershock-first-rupture",
+					"path": "res://work/visual-reel/06-gravity-aftershock-first-rupture.png",
+					"written": true
+				},
+				{
+					"label": "06-gravity-aftershock-aftershock",
+					"path": "res://work/visual-reel/06-gravity-aftershock-aftershock.png",
+					"written": true
+				},
+				{
+					"label": "06-gravity-aftershock-aftermath",
+					"path": "res://work/visual-reel/06-gravity-aftershock-aftermath.png",
+					"written": true
+				}
+			],
+			"duration": 4.0,
+			"final": {
+				"casts": 1,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 4.01666666666666,
+				"enemies": [
+					{
+						"hp": 35.0,
+						"id": 25,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-4.395836353302,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 35.0,
+						"id": 26,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							4.395836353302,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 35.0,
+						"id": 27,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							-7.39583444595337
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 2,
+				"modifiers": [
+					"gravity",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 8,
+					"ultimate_spent": 1,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "06-gravity-aftershock",
+			"initial": {
+				"casts": 0,
+				"charge": 100.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [
+					{
+						"hp": 245.0,
+						"id": 25,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-4.5,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 26,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							4.5,
+							-3.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 245.0,
+						"id": 27,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.0,
+							-7.5
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 28,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-1.79999995231628,
+							-2.0
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 115.0,
+						"id": 29,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.79999995231628,
+							-2.0
+						],
+						"state": "idle"
+					}
+				],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [
+					"gravity",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [
+				"gravity",
+				"aftershock"
+			],
+			"observations": [
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 1.0,
+						"enemies": [
+							{
+								"hp": 245.0,
+								"id": 25,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-2.56666851043701,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 245.0,
+								"id": 26,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.56666851043701,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 245.0,
+								"id": 27,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.0,
+									-5.56666851043701
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 28,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-0.492533534765244,
+									-2.88576436042786
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 115.0,
+								"id": 29,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									0.492533534765244,
+									-2.88576436042786
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [
+							"gravity",
+							"aftershock"
+						],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 0,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "gravity-pull",
+					"stage_seconds": 1.0
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 1.35,
+						"enemies": [
+							{
+								"hp": 100.0,
+								"id": 25,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-2.96166896820068,
+									-3.0
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 100.0,
+								"id": 26,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									2.96166896820068,
+									-3.0
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": 100.0,
+								"id": 27,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.0,
+									-5.96166801452637
+								],
+								"state": "stagger"
+							},
+							{
+								"hp": -30.0,
+								"id": 28,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									-1.03708183765411,
+									-2.93401002883911
+								],
+								"state": "dead"
+							},
+							{
+								"hp": -30.0,
+								"id": 29,
+								"kind": "channeler",
+								"phase": 1,
+								"position": [
+									1.03708183765411,
+									-2.93401002883911
+								],
+								"state": "dead"
+							}
+						],
+						"health": 100.0,
+						"kills": 2,
+						"modifiers": [
+							"gravity",
+							"aftershock"
+						],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 5,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "first-rupture",
+					"stage_seconds": 1.35
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 2.01666666666666,
+						"enemies": [
+							{
+								"hp": 100.0,
+								"id": 25,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-3.57916879653931,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 100.0,
+								"id": 26,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									3.57916879653931,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 100.0,
+								"id": 27,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.0,
+									-6.57916784286499
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 2,
+						"modifiers": [
+							"gravity",
+							"aftershock"
+						],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 5,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftershock",
+					"stage_seconds": 2.01666666666666
+				},
+				{
+					"game": {
+						"casts": 1,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 3.68333333333333,
+						"enemies": [
+							{
+								"hp": 35.0,
+								"id": 25,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									-4.395836353302,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 35.0,
+								"id": 26,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									4.395836353302,
+									-3.0
+								],
+								"state": "idle"
+							},
+							{
+								"hp": 35.0,
+								"id": 27,
+								"kind": "bulwark",
+								"phase": 1,
+								"position": [
+									0.0,
+									-7.39583444595337
+								],
+								"state": "idle"
+							}
+						],
+						"health": 100.0,
+						"kills": 2,
+						"modifiers": [
+							"gravity",
+							"aftershock"
+						],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 0,
+							"secondary_hits": 8,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "aftermath",
+					"stage_seconds": 3.68333333333333
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.516666666666667,
+					"charge_after_request": 0.0,
+					"spell": "cataclysm"
+				}
+			],
+			"start_seconds": 17.0833333333336,
+			"title": "GRAVITY WELL + AFTERSHOCK"
+		},
+		{
+			"assertions": {
+				"all_requests_accepted": true,
+				"intended_damage_observed": true
+			},
+			"captures": [
+				{
+					"label": "07-empty-misses-lance-miss",
+					"path": "res://work/visual-reel/07-empty-misses-lance-miss.png",
+					"written": true
+				},
+				{
+					"label": "07-empty-misses-crown-empty-orbit",
+					"path": "res://work/visual-reel/07-empty-misses-crown-empty-orbit.png",
+					"written": true
+				},
+				{
+					"label": "07-empty-misses-crown-empty-volley",
+					"path": "res://work/visual-reel/07-empty-misses-crown-empty-volley.png",
+					"written": true
+				},
+				{
+					"label": "07-empty-misses-cataclysm-miss",
+					"path": "res://work/visual-reel/07-empty-misses-cataclysm-miss.png",
+					"written": true
+				},
+				{
+					"label": "07-empty-misses-no-victims-no-hits",
+					"path": "res://work/visual-reel/07-empty-misses-no-victims-no-hits.png",
+					"written": true
+				}
+			],
+			"duration": 4.0,
+			"final": {
+				"casts": 4,
+				"charge": 0.0,
+				"crown_shards": 0,
+				"elapsed": 4.01666666666666,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 7,
+					"secondary_hits": 0,
+					"ultimate_spent": 1,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"id": "07-empty-misses",
+			"initial": {
+				"casts": 0,
+				"charge": 100.0,
+				"crown_shards": 0,
+				"elapsed": 0.0,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 0,
+				"modifiers": [],
+				"pending": 0,
+				"player": [
+					0.0,
+					4.5
+				],
+				"projectiles": 0,
+				"state": "lab",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 0,
+					"max_projectiles": 0,
+					"secondary_hits": 0,
+					"ultimate_spent": 0,
+					"waves_completed": 0
+				},
+				"wave": 0
+			},
+			"modifiers": [],
+			"observations": [
+				{
+					"game": {
+						"casts": 2,
+						"charge": 100.0,
+						"crown_shards": 7,
+						"elapsed": 0.45,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "lance-miss",
+					"stage_seconds": 0.45
+				},
+				{
+					"game": {
+						"casts": 2,
+						"charge": 100.0,
+						"crown_shards": 7,
+						"elapsed": 0.783333333333334,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 0,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "crown-empty-orbit",
+					"stage_seconds": 0.783333333333334
+				},
+				{
+					"game": {
+						"casts": 3,
+						"charge": 0.0,
+						"crown_shards": 2,
+						"elapsed": 1.48333333333333,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 1,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 5,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "crown-empty-volley",
+					"stage_seconds": 1.48333333333333
+				},
+				{
+					"game": {
+						"casts": 3,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 2.16666666666666,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 7,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "cataclysm-miss",
+					"stage_seconds": 2.16666666666666
+				},
+				{
+					"game": {
+						"casts": 4,
+						"charge": 0.0,
+						"crown_shards": 0,
+						"elapsed": 3.88333333333332,
+						"enemies": [],
+						"health": 100.0,
+						"kills": 0,
+						"modifiers": [],
+						"pending": 0,
+						"player": [
+							0.0,
+							4.5
+						],
+						"projectiles": 0,
+						"state": "lab",
+						"telemetry": {
+							"boss_phase_two": false,
+							"children_omitted": 0,
+							"deaths": 0,
+							"direct_hits": 0,
+							"max_projectiles": 7,
+							"secondary_hits": 0,
+							"ultimate_spent": 1,
+							"waves_completed": 0
+						},
+						"wave": 0
+					},
+					"phase": "no-victims-no-hits",
+					"stage_seconds": 3.88333333333332
+				}
+			],
+			"requests": [
+				{
+					"accepted": true,
+					"at_seconds": 0.116666666666667,
+					"charge_after_request": 100.0,
+					"spell": "crown"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 0.266666666666667,
+					"charge_after_request": 100.0,
+					"spell": "lance"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 1.3,
+					"charge_after_request": 0.0,
+					"spell": "cataclysm"
+				},
+				{
+					"accepted": true,
+					"at_seconds": 2.96666666666666,
+					"charge_after_request": 0.0,
+					"spell": "lance"
+				}
+			],
+			"start_seconds": 21.1000000000001,
+			"title": "THE EMPTY ARENA"
+		}
+	],
+	"viewport": [
+		1920,
+		1080
+	]
+}

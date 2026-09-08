@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M5 Pro (Apple9)
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+SCENARIO_BEGIN run
+SCENARIO_WAVE 1
+SCENARIO_WAVE 2
+SCENARIO_WAVE 3
+SCENARIO_WAVE 4
+SCENARIO_WAVE 5
+SCENARIO_WAVE 6
+SCENARIO_RESULT {"checks":{"phase_two":true,"six_waves":true,"victory":true},"passed":true,"performance":{"frame_spikes":[{"casts":26,"frame_ms":101.692,"fx":{"effects":56,"light_limit":6,"lights":6,"limit":130},"ultimate_spent":1,"wall_seconds":8.079444},{"casts":51,"frame_ms":101.953,"fx":{"effects":44,"light_limit":6,"lights":5,"limit":130},"ultimate_spent":2,"wall_seconds":15.462491},{"casts":75,"frame_ms":103.252,"fx":{"effects":27,"light_limit":6,"lights":4,"limit":130},"ultimate_spent":3,"wall_seconds":22.563824},{"casts":120,"frame_ms":100.825,"fx":{"effects":56,"light_limit":6,"lights":6,"limit":130},"ultimate_spent":5,"wall_seconds":37.811456},{"casts":161,"frame_ms":104.437,"fx":{"effects":39,"light_limit":6,"lights":3,"limit":130},"ultimate_spent":6,"wall_seconds":49.148013}],"frames":5862,"frames_over_20ms":5,"max_ms":104.437,"measurement":"monotonic wall-clock intervals after 5s warmup; recording/fixed-FPS runs are not performance evidence","median_ms":8.324,"monitor_samples":[],"p95_ms":8.787,"p99_ms":10.124,"renderer":"forward_plus","settings":{"ambience":0.4,"effects":0.8,"master":0.8,"reduced_flash":false,"reduced_particles":false,"shake":0.45},"viewport_size":"(1600.0, 900.0)","wall_seconds":55.997198,"window_size":"(1280, 720)"},"scenario":"run"}

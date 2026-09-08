@@ -1,0 +1,13 @@
+{
+  "audio": {
+    "active_voices": 0,
+    "ambience": true,
+    "ambience_level": 1.0,
+    "effects": 1.0,
+    "loaded_sounds": 15,
+    "master": 1.0,
+    "voice_limit": 20
+  },
+  "max_voices": 20,
+  "peak_db": -1.00000023841858
+}

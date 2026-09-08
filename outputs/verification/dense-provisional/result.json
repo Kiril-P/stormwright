@@ -1,0 +1,1475 @@
+{
+	"checks": {
+		"at_least_two_ultimates": true,
+		"population_24": true,
+		"rendered_realtime": true,
+		"sixty_seconds_after_warmup": true
+	},
+	"game": {
+		"casts": 135,
+		"charge": 42.0,
+		"crown_shards": 0,
+		"elapsed": 65.1666666666643,
+		"enemies": [
+			{
+				"hp": 98298.3551999999,
+				"id": 1,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					1.65056622028351,
+					-1.11509823799133
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98727.5583999999,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					1.09029817581177,
+					-0.389075189828873
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98118.1887999999,
+				"id": 3,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					1.77660799026489,
+					3.19310855865479
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98376.5103999999,
+				"id": 4,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					2.77567839622498,
+					0.919908285140991
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98271.2831999998,
+				"id": 5,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-0.527684450149536,
+					-1.78464102745056
+				],
+				"state": "windup"
+			},
+			{
+				"hp": 97993.7455999999,
+				"id": 6,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					-1.41717326641083,
+					1.73397898674011
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98495.6447999999,
+				"id": 7,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					1.34836113452911,
+					1.51504528522491
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98452.5471999999,
+				"id": 8,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-0.533038437366486,
+					-2.80612802505493
+				],
+				"state": "windup"
+			},
+			{
+				"hp": 98302.7503999999,
+				"id": 9,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					-1.89923822879791,
+					-1.81771051883698
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98297.4479999999,
+				"id": 10,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					2.00558805465698,
+					1.12192535400391
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98353.2015999999,
+				"id": 11,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					1.83261895179749,
+					-1.99920892715454
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98233.0079999999,
+				"id": 12,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					-1.6515417098999,
+					-0.358540564775467
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98441.64,
+				"id": 13,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					1.6021853685379,
+					0.304630994796753
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98311.1615999999,
+				"id": 14,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-0.46549379825592,
+					0.0196623858064413
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98467.952,
+				"id": 15,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					-1.74809420108795,
+					-3.31990742683411
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98280.1455999999,
+				"id": 16,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					3.51789379119873,
+					1.50589871406555
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98410.6416,
+				"id": 17,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					0.816913902759552,
+					0.761325597763062
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98466.1344,
+				"id": 18,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					0.697386622428894,
+					-2.63616228103638
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98582.5088,
+				"id": 19,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					2.9711709022522,
+					2.05911827087402
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98332.0831999999,
+				"id": 20,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-0.0318618603050709,
+					-0.88827520608902
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 97829.5983999999,
+				"id": 21,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					3.27374529838562,
+					3.31237268447876
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98432.9408,
+				"id": 22,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					2.32390356063843,
+					0.190666675567627
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98250.5071999999,
+				"id": 23,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					0.816255509853363,
+					-1.39853465557098
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 98368.2976,
+				"id": 24,
+				"kind": "bulwark",
+				"phase": 1,
+				"position": [
+					4.77579212188721,
+					3.34712481498718
+				],
+				"state": "idle"
+			}
+		],
+		"health": 99969.0,
+		"kills": 0,
+		"modifiers": [
+			"fork",
+			"chain",
+			"resonance"
+		],
+		"pending": 0,
+		"player": [
+			-8.21778297424316,
+			-3.63517189025879
+		],
+		"projectiles": 0,
+		"state": "run",
+		"telemetry": {
+			"boss_phase_two": false,
+			"children_omitted": 100,
+			"deaths": 0,
+			"direct_hits": 311,
+			"max_projectiles": 19,
+			"secondary_hits": 676,
+			"ultimate_spent": 10,
+			"waves_completed": 0
+		},
+		"wave": 1
+	},
+	"passed": true,
+	"performance": {
+		"frame_spikes": [
+			{
+				"casts": 40,
+				"frame_ms": 20.141,
+				"fx": {
+					"effects": 34,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 3,
+				"wall_seconds": 19.22169
+			},
+			{
+				"casts": 57,
+				"frame_ms": 21.936,
+				"fx": {
+					"effects": 51,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 5,
+				"wall_seconds": 27.182487
+			},
+			{
+				"casts": 58,
+				"frame_ms": 37.09,
+				"fx": {
+					"effects": 35,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 5,
+				"wall_seconds": 27.663626
+			},
+			{
+				"casts": 82,
+				"frame_ms": 22.236,
+				"fx": {
+					"effects": 92,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 7,
+				"wall_seconds": 38.85654
+			}
+		],
+		"frames": 7336,
+		"frames_over_20ms": 4,
+		"max_ms": 37.09,
+		"measurement": "monotonic wall-clock intervals after 5s warmup; recording/fixed-FPS runs are not performance evidence",
+		"median_ms": 7.743,
+		"monitor_samples": [
+			{
+				"draw_calls": 0.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 1382,
+				"physics_ms": 0.0,
+				"process_ms": 0.0,
+				"projectiles": 0,
+				"time": 0.077786
+			},
+			{
+				"draw_calls": 422.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 86,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1624,
+				"physics_ms": 7.266,
+				"process_ms": 8.454,
+				"projectiles": 9,
+				"time": 2.078929
+			},
+			{
+				"draw_calls": 357.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 65,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1543,
+				"physics_ms": 10.608,
+				"process_ms": 8.54,
+				"projectiles": 6,
+				"time": 4.08458
+			},
+			{
+				"draw_calls": 333.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 39,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1474,
+				"physics_ms": 5.932,
+				"process_ms": 8.452,
+				"projectiles": 3,
+				"time": 6.084608
+			},
+			{
+				"draw_calls": 425.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 96,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1653,
+				"physics_ms": 6.185,
+				"process_ms": 8.432,
+				"projectiles": 10,
+				"time": 8.084897
+			},
+			{
+				"draw_calls": 322.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 38,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1470,
+				"physics_ms": 6.07,
+				"process_ms": 8.437,
+				"projectiles": 3,
+				"time": 10.093496
+			},
+			{
+				"draw_calls": 298.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 18,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 1422,
+				"physics_ms": 6.158,
+				"process_ms": 8.484,
+				"projectiles": 3,
+				"time": 12.094049
+			},
+			{
+				"draw_calls": 403.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 81,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1614,
+				"physics_ms": 9.564,
+				"process_ms": 8.434,
+				"projectiles": 8,
+				"time": 14.101154
+			},
+			{
+				"draw_calls": 314.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 35,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"nodes": 1469,
+				"physics_ms": 10.641,
+				"process_ms": 8.423,
+				"projectiles": 1,
+				"time": 16.110059
+			},
+			{
+				"draw_calls": 316.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 31,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1477,
+				"physics_ms": 6.819,
+				"process_ms": 8.473,
+				"projectiles": 4,
+				"time": 18.11019
+			},
+			{
+				"draw_calls": 386.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 84,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1631,
+				"physics_ms": 6.735,
+				"process_ms": 18.619,
+				"projectiles": 14,
+				"time": 20.114393
+			},
+			{
+				"draw_calls": 319.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 34,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1470,
+				"physics_ms": 9.39,
+				"process_ms": 3.691,
+				"projectiles": 0,
+				"time": 22.114611
+			},
+			{
+				"draw_calls": 327.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 31,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1477,
+				"physics_ms": 11.121,
+				"process_ms": 5.224,
+				"projectiles": 0,
+				"time": 24.117101
+			},
+			{
+				"draw_calls": 426.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 79,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1680,
+				"physics_ms": 9.629,
+				"process_ms": 9.744,
+				"projectiles": 8,
+				"time": 26.118565
+			},
+			{
+				"draw_calls": 335.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 40,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1496,
+				"physics_ms": 6.033,
+				"process_ms": 8.546,
+				"projectiles": 3,
+				"time": 28.12707
+			},
+			{
+				"draw_calls": 333.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 33,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1486,
+				"physics_ms": 6.257,
+				"process_ms": 8.468,
+				"projectiles": 5,
+				"time": 30.134053
+			},
+			{
+				"draw_calls": 441.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 107,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1694,
+				"physics_ms": 6.292,
+				"process_ms": 8.459,
+				"projectiles": 10,
+				"time": 32.135526
+			},
+			{
+				"draw_calls": 331.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 39,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"nodes": 1491,
+				"physics_ms": 10.665,
+				"process_ms": 8.428,
+				"projectiles": 1,
+				"time": 34.142995
+			},
+			{
+				"draw_calls": 321.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 30,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1474,
+				"physics_ms": 10.511,
+				"process_ms": 8.435,
+				"projectiles": 3,
+				"time": 36.143256
+			},
+			{
+				"draw_calls": 384.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 78,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1617,
+				"physics_ms": 5.942,
+				"process_ms": 8.483,
+				"projectiles": 10,
+				"time": 38.143706
+			},
+			{
+				"draw_calls": 314.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 28,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1461,
+				"physics_ms": 13.652,
+				"process_ms": 8.511,
+				"projectiles": 1,
+				"time": 40.150635
+			},
+			{
+				"draw_calls": 289.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 13,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 1418,
+				"physics_ms": 6.311,
+				"process_ms": 8.467,
+				"projectiles": 0,
+				"time": 42.150682
+			},
+			{
+				"draw_calls": 375.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 75,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1604,
+				"physics_ms": 6.599,
+				"process_ms": 8.546,
+				"projectiles": 13,
+				"time": 44.150716
+			},
+			{
+				"draw_calls": 316.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 34,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"nodes": 1472,
+				"physics_ms": 9.68,
+				"process_ms": 8.403,
+				"projectiles": 2,
+				"time": 46.159499
+			},
+			{
+				"draw_calls": 313.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 29,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1470,
+				"physics_ms": 6.053,
+				"process_ms": 8.378,
+				"projectiles": 4,
+				"time": 48.159622
+			},
+			{
+				"draw_calls": 396.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 73,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1606,
+				"physics_ms": 6.098,
+				"process_ms": 8.386,
+				"projectiles": 5,
+				"time": 50.159944
+			},
+			{
+				"draw_calls": 327.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 40,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1489,
+				"physics_ms": 6.627,
+				"process_ms": 8.415,
+				"projectiles": 3,
+				"time": 52.167275
+			},
+			{
+				"draw_calls": 346.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 34,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1490,
+				"physics_ms": 6.655,
+				"process_ms": 8.442,
+				"projectiles": 5,
+				"time": 54.1764
+			},
+			{
+				"draw_calls": 394.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 79,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1614,
+				"physics_ms": 11.022,
+				"process_ms": 8.461,
+				"projectiles": 7,
+				"time": 56.177097
+			},
+			{
+				"draw_calls": 328.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 34,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1487,
+				"physics_ms": 6.303,
+				"process_ms": 8.451,
+				"projectiles": 3,
+				"time": 58.18384
+			},
+			{
+				"draw_calls": 322.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 38,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 1485,
+				"physics_ms": 8.457,
+				"process_ms": 8.493,
+				"projectiles": 5,
+				"time": 60.192897
+			},
+			{
+				"draw_calls": 361.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 69,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 1590,
+				"physics_ms": 6.523,
+				"process_ms": 8.553,
+				"projectiles": 12,
+				"time": 62.193088
+			},
+			{
+				"draw_calls": 326.0,
+				"enemies": 24,
+				"fx": {
+					"effects": 35,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"nodes": 1479,
+				"physics_ms": 10.66,
+				"process_ms": 8.489,
+				"projectiles": 1,
+				"time": 64.200551
+			}
+		],
+		"p95_ms": 9.613,
+		"p99_ms": 14.78,
+		"renderer": "forward_plus",
+		"settings": {
+			"ambience": 0.4,
+			"effects": 0.8,
+			"master": 0.8,
+			"reduced_flash": false,
+			"reduced_particles": false,
+			"shake": 0.45
+		},
+		"viewport_size": "(1600.0, 900.0)",
+		"wall_seconds": 65.001353,
+		"window_size": "(1920, 1080)"
+	},
+	"rendered": true,
+	"samples": [
+		{
+			"casts": 0,
+			"charge": 35.0,
+			"crown_shards": 0,
+			"elapsed": 0.133333333333333,
+			"enemies": [
+				{
+					"hp": 100000,
+					"id": 1,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						9.0,
+						0.0
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 2,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						8.69333267211914,
+						2.32937145233154
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 3,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						7.79422855377197,
+						4.5
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 4,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						6.3639612197876,
+						6.3639612197876
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 5,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						4.5,
+						7.79422855377197
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 6,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						2.32937145233154,
+						8.69333267211914
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 7,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						0.000000000000000551091070428436,
+						9.0
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 8,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						-2.32937145233154,
+						8.69333267211914
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 9,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						-4.5,
+						7.79422855377197
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 10,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						-6.3639612197876,
+						6.3639612197876
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 11,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						-7.79422855377197,
+						4.5
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 12,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						-8.69333267211914,
+						2.32937145233154
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 13,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						-9.0,
+						0.00000000000000110218214085687
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 14,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						-8.69333267211914,
+						-2.32937145233154
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 15,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						-7.79422855377197,
+						-4.5
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 16,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						-6.3639612197876,
+						-6.3639612197876
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 17,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						-4.5,
+						-7.79422855377197
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 18,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						-2.32937145233154,
+						-8.69333267211914
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 19,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						-0.00000000000000165327321128531,
+						-9.0
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 20,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						2.32937145233154,
+						-8.69333267211914
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 21,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						4.5,
+						-7.79422855377197
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 22,
+					"kind": "shardling",
+					"phase": 1,
+					"position": [
+						6.3639612197876,
+						-6.3639612197876
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 23,
+					"kind": "channeler",
+					"phase": 1,
+					"position": [
+						7.79422855377197,
+						-4.5
+					],
+					"state": "spawn"
+				},
+				{
+					"hp": 100000,
+					"id": 24,
+					"kind": "bulwark",
+					"phase": 1,
+					"position": [
+						8.69333267211914,
+						-2.32937145233154
+					],
+					"state": "spawn"
+				}
+			],
+			"health": 100000.0,
+			"kills": 0,
+			"modifiers": [
+				"fork",
+				"chain",
+				"resonance"
+			],
+			"pending": 0,
+			"player": [
+				0.0,
+				5.0
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": false,
+				"children_omitted": 100,
+				"deaths": 0,
+				"direct_hits": 311,
+				"max_projectiles": 19,
+				"secondary_hits": 676,
+				"ultimate_spent": 10,
+				"waves_completed": 0
+			},
+			"wave": 1
+		},
+		{
+			"game": {
+				"casts": 135,
+				"charge": 42.0,
+				"crown_shards": 0,
+				"elapsed": 65.1666666666643,
+				"enemies": [
+					{
+						"hp": 98298.3551999999,
+						"id": 1,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							1.65056622028351,
+							-1.11509823799133
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98727.5583999999,
+						"id": 2,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.09029817581177,
+							-0.389075189828873
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98118.1887999999,
+						"id": 3,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							1.77660799026489,
+							3.19310855865479
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98376.5103999999,
+						"id": 4,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.77567839622498,
+							0.919908285140991
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98271.2831999998,
+						"id": 5,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-0.527684450149536,
+							-1.78464102745056
+						],
+						"state": "windup"
+					},
+					{
+						"hp": 97993.7455999999,
+						"id": 6,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-1.41717326641083,
+							1.73397898674011
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98495.6447999999,
+						"id": 7,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							1.34836113452911,
+							1.51504528522491
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98452.5471999999,
+						"id": 8,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-0.533038437366486,
+							-2.80612802505493
+						],
+						"state": "windup"
+					},
+					{
+						"hp": 98302.7503999999,
+						"id": 9,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-1.89923822879791,
+							-1.81771051883698
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98297.4479999999,
+						"id": 10,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.00558805465698,
+							1.12192535400391
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98353.2015999999,
+						"id": 11,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							1.83261895179749,
+							-1.99920892715454
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98233.0079999999,
+						"id": 12,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-1.6515417098999,
+							-0.358540564775467
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98441.64,
+						"id": 13,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							1.6021853685379,
+							0.304630994796753
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98311.1615999999,
+						"id": 14,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-0.46549379825592,
+							0.0196623858064413
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98467.952,
+						"id": 15,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-1.74809420108795,
+							-3.31990742683411
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98280.1455999999,
+						"id": 16,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.51789379119873,
+							1.50589871406555
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98410.6416,
+						"id": 17,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							0.816913902759552,
+							0.761325597763062
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98466.1344,
+						"id": 18,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							0.697386622428894,
+							-2.63616228103638
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98582.5088,
+						"id": 19,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.9711709022522,
+							2.05911827087402
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98332.0831999999,
+						"id": 20,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-0.0318618603050709,
+							-0.88827520608902
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 97829.5983999999,
+						"id": 21,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							3.27374529838562,
+							3.31237268447876
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98432.9408,
+						"id": 22,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.32390356063843,
+							0.190666675567627
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98250.5071999999,
+						"id": 23,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							0.816255509853363,
+							-1.39853465557098
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 98368.2976,
+						"id": 24,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							4.77579212188721,
+							3.34712481498718
+						],
+						"state": "idle"
+					}
+				],
+				"health": 99969.0,
+				"kills": 0,
+				"modifiers": [
+					"fork",
+					"chain",
+					"resonance"
+				],
+				"pending": 0,
+				"player": [
+					-8.21778297424316,
+					-3.63517189025879
+				],
+				"projectiles": 0,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": false,
+					"children_omitted": 100,
+					"deaths": 0,
+					"direct_hits": 311,
+					"max_projectiles": 19,
+					"secondary_hits": 676,
+					"ultimate_spent": 10,
+					"waves_completed": 0
+				},
+				"wave": 1
+			},
+			"label": "combat-after-measurement"
+		}
+	],
+	"scenario": "performance"
+}

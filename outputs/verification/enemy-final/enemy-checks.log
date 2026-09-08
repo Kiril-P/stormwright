@@ -1,0 +1,24 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+ENEMY_CHECK slam_safe_outside_committed_sector PASS
+ENEMY_CHECK slam_damage_inside_same_sector PASS
+ENEMY_CHECK distant_warden_uses_fan PASS
+ENEMY_CHECK fan_has_five_owned_shots PASS
+ENEMY_CHECK dead_owner_shots_retire PASS
+ENEMY_CHECK death_has_directional_travel PASS
+ENEMY_CHECK channeler_hit_cancels_windup PASS
+ENEMY_CHECK interrupted_channeler_does_not_emit PASS
+ENEMY_CHECK cataclysm_staggers_regular_not_warden PASS
+ENEMY_CHECK warden_phase_transition_remains_safe PASS
+ENEMY_CHECK lunge_reaches_committed_damage_endpoint PASS
+ENEMY_CHECK pulse_visual_and_damage_share_linear_radius PASS
+ENEMY_CHECK dead_owner_pulse_retires PASS
+ENEMY_CHECK cataclysm_marks_armor_during_windup PASS
+ENEMY_CHECK charge_seams_end_at_rupture PASS
+ENEMY_CHECK aftershock_hits_near_before_far PASS
+ENEMY_CHECK aftershock_sweeps_far_once_without_charge PASS
+ENEMY_CHECK unmodified_lance_breaks_shardling_in_two_hits PASS
+ENEMY_CHECK missed_slam_exposes_core_for_counterattack PASS
+ENEMY_CHECK channeler_strafes_between_shots PASS
+ENEMY_CHECK shardling_flanks_while_closing_fast PASS

@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M5 Pro (Apple9)
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+MANUAL_REVIEW_READY {"capture":"F12","flush":"F11","limit_minutes":30,"output":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review","scenario_enabled":false}
+MANUAL_FLUSH {"captures":1,"events":28,"path":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/session.json","reason":"F12","samples":161}
+MANUAL_CAPTURE {"aim_projected":[416.043914794922,327.895141601562],"file":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/capture-0001.png","image_error":0,"mouse":[-105.0,130.0]}
+MANUAL_FLUSH {"captures":2,"events":80,"path":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/session.json","reason":"F12","samples":366}
+MANUAL_CAPTURE {"aim_projected":[937.464477539062,178.147201538086],"file":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/capture-0002.png","image_error":0,"mouse":[1897.49987792969,1119.99975585938]}
+MANUAL_FLUSH {"captures":3,"events":103,"path":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/session.json","reason":"F12","samples":433}
+MANUAL_CAPTURE {"aim_projected":[664.714294433594,690.934631347656],"file":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/capture-0003.png","image_error":0,"mouse":[285.0,1407.49975585938]}
+MANUAL_FLUSH {"captures":3,"events":1567,"path":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/manual-review/session.json","reason":"exit_tree","samples":678}

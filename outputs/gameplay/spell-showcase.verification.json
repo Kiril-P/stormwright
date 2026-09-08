@@ -1,0 +1,36 @@
+{
+  "audio_codec": "AAC 192kbps",
+  "audio_tracks": 1,
+  "channels": 2,
+  "complete_readback": true,
+  "decoded_audio_frames": 1208800,
+  "duration_seconds": 25.183333333333334,
+  "encoded_video_frames": 1511,
+  "fps": 60,
+  "height": 720,
+  "output": "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/outputs/gameplay/spell-showcase.mp4",
+  "sample_rate": 48000,
+  "source": "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/visual-reel/reel.avi",
+  "source_pcm_frames": 1208800,
+  "source_unchanged": true,
+  "source_video_frames": 1511,
+  "video_codec": "H.264 High",
+  "video_tracks": 1,
+  "width": 1280,
+  "source_sha256": "b795de857b1be7a2521bc43b3e37aa1fb76b46ec154acbbab82c0d7c069318d0",
+  "output_sha256": "f7fca217df388667b3905a72bcdd3fd026d42782f59aeca635c99bc27bab7cda",
+  "output_bytes": 27982425,
+  "audio_decoded_signal": {
+    "readback_completed": true,
+    "decoded_sample_values": 2417600,
+    "decoded_peak": 0.739410400390625,
+    "decoded_rms": 0.0439387682214644,
+    "peak_dbfs": -2.6222889005086722
+  },
+  "phase_capture_size": [
+    1920,
+    1080
+  ],
+  "phase_capture_count": 29,
+  "poster_orientation_inspected": true
+}

@@ -1,0 +1,145 @@
+{
+	"boss_fixture_modifiers": [
+		"pierce",
+		"chain",
+		"aftershock"
+	],
+	"command": {
+		"aim": [
+			-0.57,
+			-2.54
+		],
+		"duration": 1.8,
+		"hold_lance": true,
+		"id": 16.0
+	},
+	"duration_seconds": 1.80833333333333,
+	"game": {
+		"aim": [
+			-0.569999992847443,
+			-2.53999996185303
+		],
+		"casts": 50,
+		"charge": 19.6,
+		"choices": [],
+		"crown_cooldown": 0.550000000000016,
+		"crown_shards": 0,
+		"dash_cooldown": 0.0,
+		"elapsed": 24.9666666666665,
+		"enemies": [
+			{
+				"hp": -22.3200000000001,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					-0.102696053683758,
+					-1.94783961772919
+				],
+				"state": "dead"
+			}
+		],
+		"enemy_details": [
+			{
+				"attack": "fan",
+				"attack_direction": "(-0.072925, 0.0, 0.997337)",
+				"attack_origin": "(-0.542888, 0.0, -2.516054)",
+				"attack_target": [
+					-1.11480760574341,
+					5.30563497543335
+				],
+				"cooldown": -0.233333333333332,
+				"hp": -22.3200000000001,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					-0.102696053683758,
+					-1.94783961772919
+				],
+				"state": "dead",
+				"timer": 0.0466666666666667
+			}
+		],
+		"hazard_details": [],
+		"health": 87.0,
+		"kills": 5,
+		"lance_cooldown": 0.0000000000000000485722573273506,
+		"modifiers": [
+			"pierce",
+			"chain",
+			"aftershock"
+		],
+		"pending": 0,
+		"pending_modifier": "",
+		"player": [
+			5.72518968582153,
+			5.30563497543335
+		],
+		"projectiles": 0,
+		"spawn_queue": [],
+		"state": "run",
+		"telemetry": {
+			"boss_phase_two": true,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 71,
+			"max_projectiles": 12,
+			"secondary_hits": 12,
+			"ultimate_spent": 2,
+			"waves_completed": 0
+		},
+		"wave": 6
+	},
+	"id": 16,
+	"input_log": [
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"aim": [
+					-0.569999992847443,
+					-2.53999996185303
+				],
+				"duration": 1.8,
+				"state": "run"
+			},
+			"event": "begin",
+			"physics_frame": 25015
+		},
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"lance": true,
+				"movement": [
+					0.0,
+					0.0
+				],
+				"one_shots": []
+			},
+			"event": "named_inputs",
+			"physics_frame": 25017
+		},
+		{
+			"at_seconds": 0.0333333333333333,
+			"data": {},
+			"event": "release_one_shots",
+			"physics_frame": 25019
+		},
+		{
+			"at_seconds": 1.80833333333333,
+			"data": {
+				"elapsed": 1.80833333333333,
+				"state": "run"
+			},
+			"event": "end",
+			"physics_frame": 25125
+		}
+	],
+	"label": "chunk",
+	"last_command_id": 16,
+	"mode": "boss",
+	"png": "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000016.png",
+	"rendered": true,
+	"review_paused": true,
+	"scope": "Agent-directed application-level review, with fixed manually supplied aim and bounded named inputs. No autonomous target selection, combat stat overrides, or human-playtest claim. OS focus behavior is not exercised by this adapter."
+}

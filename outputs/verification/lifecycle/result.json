@@ -1,0 +1,401 @@
+{
+	"baseline": {
+		"actors": 6,
+		"audio": {
+			"active_voices": 0,
+			"ambience": false,
+			"ambience_level": 0.4,
+			"effects": 0.8,
+			"loaded_sounds": 15,
+			"master": 0.8,
+			"voice_limit": 20
+		},
+		"audio_voice_nodes": 21,
+		"fx": {
+			"effects": 0,
+			"light_limit": 6,
+			"lights": 0,
+			"limit": 130
+		},
+		"nodes": 523,
+		"orphan_nodes": 0,
+		"owned_resources": 208,
+		"resources": 26,
+		"world_material_cache": 13,
+		"world_mesh_cache": 94
+	},
+	"checks": {
+		"cycle_1_actor_fx_audio_reset": true,
+		"cycle_1_effect_budgets_respected": true,
+		"cycle_1_exercised_real_load": true,
+		"cycle_1_nodes_and_orphans_return": true,
+		"cycle_1_resources_return_to_warm_baseline": true,
+		"cycle_1_sampled_transient_resources_reclaimed": true,
+		"cycle_2_actor_fx_audio_reset": true,
+		"cycle_2_effect_budgets_respected": true,
+		"cycle_2_exercised_real_load": true,
+		"cycle_2_nodes_and_orphans_return": true,
+		"cycle_2_resources_return_to_warm_baseline": true,
+		"cycle_2_sampled_transient_resources_reclaimed": true,
+		"cycle_3_actor_fx_audio_reset": true,
+		"cycle_3_effect_budgets_respected": true,
+		"cycle_3_exercised_real_load": true,
+		"cycle_3_nodes_and_orphans_return": true,
+		"cycle_3_resources_return_to_warm_baseline": true,
+		"cycle_3_sampled_transient_resources_reclaimed": true,
+		"load_cache_stabilizes_before_measurement": true,
+		"warmup_returns_to_live_lab_fixture": true
+	},
+	"cycles": [
+		{
+			"cycle": 1,
+			"exercise": {
+				"actors_created": 24,
+				"direct_hits": 86,
+				"loadouts": [
+					[
+						"fork",
+						"chain",
+						"resonance"
+					],
+					[
+						"pierce",
+						"overload",
+						"echo"
+					],
+					[
+						"gravity",
+						"aftershock",
+						"resonance"
+					]
+				],
+				"max_audio_voices": 0,
+				"max_damaging_entities": 14,
+				"max_fx": 123,
+				"peak_nodes": 1908,
+				"peak_owned_resources": 509,
+				"peak_resources": 26,
+				"secondary_hits": 179,
+				"seeded_cycle": 2,
+				"ultimates": 3
+			},
+			"node_delta": 0,
+			"orphan_delta": 0,
+			"resource_delta": 0,
+			"retention": {
+				"alive_owned": 208,
+				"alive_unowned": 0,
+				"released": 1705,
+				"sampled": 1913,
+				"unowned_types": []
+			},
+			"settled": {
+				"actors": 6,
+				"audio": {
+					"active_voices": 0,
+					"ambience": false,
+					"ambience_level": 0.4,
+					"effects": 0.8,
+					"loaded_sounds": 15,
+					"master": 0.8,
+					"voice_limit": 20
+				},
+				"audio_voice_nodes": 21,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 523,
+				"orphan_nodes": 0,
+				"owned_resources": 208,
+				"resources": 26,
+				"world_material_cache": 13,
+				"world_mesh_cache": 94
+			}
+		},
+		{
+			"cycle": 2,
+			"exercise": {
+				"actors_created": 24,
+				"direct_hits": 86,
+				"loadouts": [
+					[
+						"fork",
+						"chain",
+						"resonance"
+					],
+					[
+						"pierce",
+						"overload",
+						"echo"
+					],
+					[
+						"gravity",
+						"aftershock",
+						"resonance"
+					]
+				],
+				"max_audio_voices": 0,
+				"max_damaging_entities": 14,
+				"max_fx": 123,
+				"peak_nodes": 1908,
+				"peak_owned_resources": 509,
+				"peak_resources": 26,
+				"secondary_hits": 179,
+				"seeded_cycle": 3,
+				"ultimates": 3
+			},
+			"node_delta": 0,
+			"orphan_delta": 0,
+			"resource_delta": 0,
+			"retention": {
+				"alive_owned": 208,
+				"alive_unowned": 0,
+				"released": 1705,
+				"sampled": 1913,
+				"unowned_types": []
+			},
+			"settled": {
+				"actors": 6,
+				"audio": {
+					"active_voices": 0,
+					"ambience": false,
+					"ambience_level": 0.4,
+					"effects": 0.8,
+					"loaded_sounds": 15,
+					"master": 0.8,
+					"voice_limit": 20
+				},
+				"audio_voice_nodes": 21,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 523,
+				"orphan_nodes": 0,
+				"owned_resources": 208,
+				"resources": 26,
+				"world_material_cache": 13,
+				"world_mesh_cache": 94
+			}
+		},
+		{
+			"cycle": 3,
+			"exercise": {
+				"actors_created": 24,
+				"direct_hits": 86,
+				"loadouts": [
+					[
+						"fork",
+						"chain",
+						"resonance"
+					],
+					[
+						"pierce",
+						"overload",
+						"echo"
+					],
+					[
+						"gravity",
+						"aftershock",
+						"resonance"
+					]
+				],
+				"max_audio_voices": 0,
+				"max_damaging_entities": 14,
+				"max_fx": 123,
+				"peak_nodes": 1908,
+				"peak_owned_resources": 509,
+				"peak_resources": 26,
+				"secondary_hits": 179,
+				"seeded_cycle": 4,
+				"ultimates": 3
+			},
+			"node_delta": 0,
+			"orphan_delta": 0,
+			"resource_delta": 0,
+			"retention": {
+				"alive_owned": 208,
+				"alive_unowned": 0,
+				"released": 1705,
+				"sampled": 1913,
+				"unowned_types": []
+			},
+			"settled": {
+				"actors": 6,
+				"audio": {
+					"active_voices": 0,
+					"ambience": false,
+					"ambience_level": 0.4,
+					"effects": 0.8,
+					"loaded_sounds": 15,
+					"master": 0.8,
+					"voice_limit": 20
+				},
+				"audio_voice_nodes": 21,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 523,
+				"orphan_nodes": 0,
+				"owned_resources": 208,
+				"resources": 26,
+				"world_material_cache": 13,
+				"world_mesh_cache": 94
+			}
+		}
+	],
+	"initial": {
+		"actors": 6,
+		"audio": {
+			"active_voices": 0,
+			"ambience": false,
+			"ambience_level": 0.4,
+			"effects": 0.8,
+			"loaded_sounds": 15,
+			"master": 0.8,
+			"voice_limit": 20
+		},
+		"audio_voice_nodes": 21,
+		"fx": {
+			"effects": 0,
+			"light_limit": 6,
+			"lights": 0,
+			"limit": 130
+		},
+		"nodes": 523,
+		"orphan_nodes": 0,
+		"owned_resources": 204,
+		"resources": 26,
+		"world_material_cache": 13,
+		"world_mesh_cache": 91
+	},
+	"passed": true,
+	"scope": "Two identical full-load warm-up/reset cycles establish stable lazy-load caches; three further cycles compare Godot OBJECT_RESOURCE_COUNT, OBJECT_NODE_COUNT and OBJECT_ORPHAN_NODE_COUNT plus a unique procedural mesh/material/shader/audio-stream census and sampled WeakRef retirement. Every cycle creates 24 actors of all four archetypes, uses all three spell families and three three-modifier loadouts, drives death, then resets to six live lab targets. All 15 event sounds are requested through the production audio module; headless execution intentionally suppresses playback, so this harness verifies allocated streams/voice nodes and cleanup, not mixed audio or active voice behavior. This is fixed-step lifecycle evidence, not GPU memory reclamation, render quality, normal gameplay or frame-time performance.",
+	"seconds": 4.833181,
+	"warmup": [
+		{
+			"exercise": {
+				"actors_created": 24,
+				"direct_hits": 86,
+				"loadouts": [
+					[
+						"fork",
+						"chain",
+						"resonance"
+					],
+					[
+						"pierce",
+						"overload",
+						"echo"
+					],
+					[
+						"gravity",
+						"aftershock",
+						"resonance"
+					]
+				],
+				"max_audio_voices": 0,
+				"max_damaging_entities": 14,
+				"max_fx": 123,
+				"peak_nodes": 1908,
+				"peak_owned_resources": 509,
+				"peak_resources": 26,
+				"secondary_hits": 179,
+				"seeded_cycle": 0,
+				"ultimates": 3
+			},
+			"label": "load_cache_stabilization_1",
+			"settled": {
+				"actors": 6,
+				"audio": {
+					"active_voices": 0,
+					"ambience": false,
+					"ambience_level": 0.4,
+					"effects": 0.8,
+					"loaded_sounds": 15,
+					"master": 0.8,
+					"voice_limit": 20
+				},
+				"audio_voice_nodes": 21,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 523,
+				"orphan_nodes": 0,
+				"owned_resources": 208,
+				"resources": 26,
+				"world_material_cache": 13,
+				"world_mesh_cache": 94
+			}
+		},
+		{
+			"exercise": {
+				"actors_created": 24,
+				"direct_hits": 86,
+				"loadouts": [
+					[
+						"fork",
+						"chain",
+						"resonance"
+					],
+					[
+						"pierce",
+						"overload",
+						"echo"
+					],
+					[
+						"gravity",
+						"aftershock",
+						"resonance"
+					]
+				],
+				"max_audio_voices": 0,
+				"max_damaging_entities": 14,
+				"max_fx": 123,
+				"peak_nodes": 1908,
+				"peak_owned_resources": 509,
+				"peak_resources": 26,
+				"secondary_hits": 179,
+				"seeded_cycle": 1,
+				"ultimates": 3
+			},
+			"label": "load_cache_stabilization_2",
+			"settled": {
+				"actors": 6,
+				"audio": {
+					"active_voices": 0,
+					"ambience": false,
+					"ambience_level": 0.4,
+					"effects": 0.8,
+					"loaded_sounds": 15,
+					"master": 0.8,
+					"voice_limit": 20
+				},
+				"audio_voice_nodes": 21,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 523,
+				"orphan_nodes": 0,
+				"owned_resources": 208,
+				"resources": 26,
+				"world_material_cache": 13,
+				"world_mesh_cache": 94
+			}
+		}
+	]
+}

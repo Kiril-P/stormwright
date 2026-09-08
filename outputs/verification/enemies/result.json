@@ -1,0 +1,22 @@
+{
+	"checks": {
+		"aftershock_hits_near_before_far": true,
+		"aftershock_sweeps_far_once_without_charge": true,
+		"cataclysm_marks_armor_during_windup": true,
+		"cataclysm_staggers_regular_not_warden": true,
+		"channeler_hit_cancels_windup": true,
+		"charge_seams_end_at_rupture": true,
+		"dead_owner_pulse_retires": true,
+		"dead_owner_shots_retire": true,
+		"death_has_directional_travel": true,
+		"distant_warden_uses_fan": true,
+		"fan_has_five_owned_shots": true,
+		"interrupted_channeler_does_not_emit": true,
+		"lunge_reaches_committed_damage_endpoint": true,
+		"pulse_visual_and_damage_share_linear_radius": true,
+		"slam_damage_inside_same_sector": true,
+		"slam_safe_outside_committed_sector": true,
+		"warden_phase_transition_remains_safe": true
+	},
+	"passed": true
+}

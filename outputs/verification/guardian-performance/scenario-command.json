@@ -1,0 +1,15 @@
+[
+  "/Users/kirilpetrovski/Downloads/Godot.app/Contents/MacOS/Godot",
+  "--log-file",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/performance-guardian/scenario-engine.log",
+  "--path",
+  "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game",
+  "--windowed",
+  "--resolution",
+  "1920x1080",
+  "--",
+  "--scenario=boss_performance",
+  "--output=/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/performance-guardian",
+  "--seed=73",
+  "--save=/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/acceptance/performance-guardian/test-save.json"
+]

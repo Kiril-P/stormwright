@@ -1,0 +1,19 @@
+{
+  "game/arena_game.gd": "54fd863d2a9e27b4bf6e45de86368157b85ac449f3051b6155b8dc020368989e",
+  "game/enemy_checks.gd": "2ed281221ff83aab231ffba812862f52f72079d96ad33b55814f7265a3f670f4",
+  "game/enemy_reel.gd": "11253d926e7f4eedbaa9f719c1a1b3f61a89cbe3d00cbf618afd24fc24fb90d6",
+  "game/flow_checks.gd": "915954dd7e55d14fcabb6919bbd7400ffb2e8028d30ad5ff43b0c198aa987d4b",
+  "game/game_audio.gd": "292934bbfd05a56d805974ef1972fe2da0a365202e89b5cdc2e885b6dfb3b13f",
+  "game/game_ui.gd": "1df3b7facc4f92c30dc5b30a5bc6604fdd385d97d45021e389a190e761fe38ae",
+  "game/guided_review.gd": "f6ba74267526c2eef51a16ce1b05de66851a0519ee78631014249c3da0741c2d",
+  "game/lifecycle_checks.gd": "e3572a7ab0da05bd563a58dc76eeb6cfc67792badda2a4abaa16b417b8aef2d5",
+  "game/manual_review.gd": "cdf881dcd9111caad28f0d9aad92f90db820ca8e654bcfe352539a9fdcab989f",
+  "game/modifier_catalog.gd": "2a55a995b92faeff4dd812577b99c86320a422e9b49a4f2bb8910e948e257c28",
+  "game/scenario_runner.gd": "ce57f78b095eef09b3534ed90aaa243051350d1f887a810367759d7eb06027ee",
+  "game/spell_checks.gd": "b41c64ea78ea277ae97875233007a7f2dd45f398e1678475585dc3a12a40fa23",
+  "game/spell_fx.gd": "4df6dc1fae1cd389658239842c8d50b35001cf0d8bd6dff04adb6f1fd56e43b6",
+  "game/visual_reel.gd": "cfbf08dfc8f8097192e46f033e51b212414174e79e250eea7ee0751992299299",
+  "game/world_art.gd": "760da02299b443b3dc73f31c21fecd4688abf20a98018ea88994ab53aae2cdd3",
+  "project.godot": "8e489454c5193647b8b779864111b6cc804a40b9787e2c1991c26edc69a9686b",
+  "scenes/main.tscn": "a5b8b111f0a3e21823c4f0c03496a8993f58842068ea26bb6b6a89ed44f83486"
+}

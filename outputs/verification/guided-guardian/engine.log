@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M5 Pro (Apple9)
+
+GAME_READY {"renderer":"forward_plus","seed":73}
+GUIDED_REVIEW_READY {"command_file":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/command.json","directory":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss","mode":"boss","rendered":true}
+GUIDED_REVIEW_CHUNK_BEGIN 1.0
+GUIDED_REVIEW_CHUNK_END {"id":1.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000001.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000001.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 2.0
+GUIDED_REVIEW_CHUNK_END {"id":2.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000002.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000002.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 3.0
+GUIDED_REVIEW_CHUNK_END {"id":3.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000003.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000003.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 4.0
+GUIDED_REVIEW_CHUNK_END {"id":4.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000004.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000004.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 5.0
+GUIDED_REVIEW_CHUNK_END {"id":5.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000005.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000005.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 6.0
+GUIDED_REVIEW_CHUNK_END {"id":6.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000006.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000006.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 7.0
+GUIDED_REVIEW_CHUNK_END {"id":7.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000007.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000007.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 8.0
+GUIDED_REVIEW_CHUNK_END {"id":8.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000008.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000008.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 9.0
+GUIDED_REVIEW_CHUNK_END {"id":9.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000009.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000009.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 10.0
+GUIDED_REVIEW_CHUNK_END {"id":10.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000010.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000010.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 11.0
+GUIDED_REVIEW_CHUNK_END {"id":11.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000011.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000011.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 12.0
+GUIDED_REVIEW_CHUNK_END {"id":12.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000012.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000012.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 13.0
+GUIDED_REVIEW_CHUNK_END {"id":13.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000013.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000013.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 14.0
+GUIDED_REVIEW_CHUNK_END {"id":14.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000014.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000014.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 15.0
+GUIDED_REVIEW_CHUNK_END {"id":15.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000015.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000015.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 16.0
+GUIDED_REVIEW_CHUNK_END {"id":16.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000016.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000016.json","state":"run"}
+GUIDED_REVIEW_CHUNK_BEGIN 17.0
+GUIDED_REVIEW_CHUNK_END {"id":17.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000017.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000017.json","state":"victory"}
+GUIDED_REVIEW_CHUNK_BEGIN 18.0
+GUIDED_REVIEW_CHUNK_END {"id":18.0,"png":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000018.png","snapshot":"/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000018.json","state":"victory"}

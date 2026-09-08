@@ -1,0 +1,778 @@
+{
+  "scope": "Root agent observed each state and rendered PNG before choosing the next bounded movement/aim/cast command. Uses normal combat stats and production named inputs; no autonomous target selector. This is directed agent inspection of encounter six only, not an OS-input or human playtest and not a full six-encounter run.",
+  "result": {
+    "aim": [
+      -0.569999992847443,
+      -2.53999996185303
+    ],
+    "casts": 50,
+    "charge": 19.6,
+    "choices": [],
+    "crown_cooldown": 0.500000000000016,
+    "crown_shards": 0,
+    "dash_cooldown": 0.0,
+    "elapsed": 25.0166666666665,
+    "enemies": [],
+    "enemy_details": [],
+    "hazard_details": [],
+    "health": 87.0,
+    "kills": 5,
+    "lance_cooldown": 0.0,
+    "modifiers": [
+      "pierce",
+      "chain",
+      "aftershock"
+    ],
+    "pending": 0,
+    "pending_modifier": "",
+    "player": [
+      5.72518968582153,
+      5.30563497543335
+    ],
+    "projectiles": 0,
+    "spawn_queue": [],
+    "state": "victory",
+    "telemetry": {
+      "boss_phase_two": true,
+      "children_omitted": 0,
+      "deaths": 0,
+      "direct_hits": 71,
+      "max_projectiles": 12,
+      "secondary_hits": 12,
+      "ultimate_spent": 2,
+      "waves_completed": 1
+    },
+    "wave": 6
+  },
+  "stages": [
+    {
+      "chunk": 1,
+      "simulated_seconds": 1.83333333333333,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          0.0,
+          -4.0
+        ],
+        "crown": true,
+        "duration": 1.8,
+        "hold_lance": true,
+        "id": 1.0,
+        "move": [
+          1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.625657, 0.0, 0.780099)",
+        "attack_origin": "(0.234293, 0.0, -4.626539)",
+        "attack_target": [
+          7.95499515533447,
+          5.0
+        ],
+        "cooldown": -0.359731884797414,
+        "hp": 2185.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          0.218450024724007,
+          -4.65866422653198
+        ],
+        "state": "windup",
+        "timer": 0.649999999999999
+      },
+      "hazards": [],
+      "source": "chunks/000001.json"
+    },
+    {
+      "chunk": 2,
+      "simulated_seconds": 3.86666666666666,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          0.2,
+          -4.6
+        ],
+        "duration": 2.0,
+        "hold_lance": true,
+        "id": 2.0,
+        "move": [
+          0.0,
+          -1.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.625657, 0.0, 0.780099)",
+        "attack_origin": "(0.234293, 0.0, -4.626539)",
+        "attack_target": [
+          7.95499515533447,
+          5.0
+        ],
+        "cooldown": 0.516666666666668,
+        "hp": 1941.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          0.674349367618561,
+          -4.70571184158325
+        ],
+        "state": "idle",
+        "timer": -0.733333333333334
+      },
+      "hazards": [],
+      "source": "chunks/000002.json"
+    },
+    {
+      "chunk": 3,
+      "simulated_seconds": 5.09999999999999,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          0.7,
+          -4.7
+        ],
+        "duration": 1.2,
+        "hold_lance": true,
+        "id": 3.0,
+        "move": [
+          -1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.978868, 0.0, -0.204491)",
+        "attack_origin": "(1.070433, 0.0, -4.772254)",
+        "attack_target": [
+          7.1149959564209,
+          -6.03499507904053
+        ],
+        "cooldown": -0.716666666666666,
+        "hp": 1873.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          1.04750764369965,
+          -4.76228332519531
+        ],
+        "state": "windup",
+        "timer": 0.299999999999999
+      },
+      "hazards": [],
+      "source": "chunks/000003.json"
+    },
+    {
+      "chunk": 4,
+      "simulated_seconds": 6.33333333333332,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          1.0,
+          -4.8
+        ],
+        "duration": 1.2,
+        "hold_lance": true,
+        "id": 4.0,
+        "move": [
+          -1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.978868, 0.0, -0.204491)",
+        "attack_origin": "(1.070433, 0.0, -4.772254)",
+        "attack_target": [
+          7.1149959564209,
+          -6.03499507904053
+        ],
+        "cooldown": 0.96666666666667,
+        "hp": 1805.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          0.984619438648224,
+          -4.76932668685913
+        ],
+        "state": "idle",
+        "timer": -0.283333333333334
+      },
+      "hazards": [],
+      "source": "chunks/000004.json"
+    },
+    {
+      "chunk": 5,
+      "simulated_seconds": 7.86666666666664,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          1.0,
+          -4.8
+        ],
+        "crown": true,
+        "duration": 1.5,
+        "hold_lance": true,
+        "id": 5.0
+      },
+      "guardian": {
+        "attack": "slam",
+        "attack_direction": "(-0.959478, 0.0, -0.281784)",
+        "attack_origin": "(0.522186, 0.0, -4.91101)",
+        "attack_target": [
+          -3.30499935150146,
+          -6.03499507904053
+        ],
+        "cooldown": -0.566666666666665,
+        "hp": 1568.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          0.620899736881256,
+          -4.88528347015381
+        ],
+        "state": "windup",
+        "timer": 0.449999999999999
+      },
+      "hazards": [],
+      "source": "chunks/000005.json"
+    },
+    {
+      "chunk": 6,
+      "simulated_seconds": 9.00000000000003,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": false,
+      "command": {
+        "aim": [
+          0.6,
+          -4.9
+        ],
+        "cat": true,
+        "dash": true,
+        "duration": 1.1,
+        "hold_lance": true,
+        "id": 6.0,
+        "move": [
+          0.0,
+          1.0
+        ]
+      },
+      "guardian": {
+        "attack": "slam",
+        "attack_direction": "(-0.959478, 0.0, -0.281784)",
+        "attack_origin": "(0.522186, 0.0, -4.91101)",
+        "attack_target": [
+          -3.30499935150146,
+          -6.03499507904053
+        ],
+        "cooldown": 1.21666666666667,
+        "hp": 1301.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 1,
+        "position": [
+          0.716391921043396,
+          -4.91299915313721
+        ],
+        "state": "idle",
+        "timer": -0.0333333333333336
+      },
+      "hazards": [],
+      "source": "chunks/000006.json"
+    },
+    {
+      "chunk": 7,
+      "simulated_seconds": 11.0333333333335,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          0.5,
+          -4.4
+        ],
+        "duration": 2.0,
+        "hold_lance": true,
+        "id": 7.0
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(-0.456794, 0.0, 0.889572)",
+        "attack_origin": "(0.289274, 0.0, -4.069569)",
+        "attack_target": [
+          -3.30499935150146,
+          2.93000459671021
+        ],
+        "cooldown": -0.816666666666666,
+        "hp": 1100.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          0.309847682714462,
+          -4.11513948440552
+        ],
+        "state": "transition",
+        "timer": 1.13333333333334
+      },
+      "hazards": [],
+      "source": "chunks/000007.json"
+    },
+    {
+      "chunk": 8,
+      "simulated_seconds": 12.5666666666669,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          0.3,
+          -4.1
+        ],
+        "duration": 1.5,
+        "hold_lance": true,
+        "id": 8.0,
+        "move": [
+          1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(-0.456794, 0.0, 0.889572)",
+        "attack_origin": "(0.289274, 0.0, -4.069569)",
+        "attack_target": [
+          -3.30499935150146,
+          2.93000459671021
+        ],
+        "cooldown": 0.516666666666665,
+        "hp": 1032.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          0.443720489740372,
+          -3.89149522781372
+        ],
+        "state": "idle",
+        "timer": -0.399999999999999
+      },
+      "hazards": [],
+      "source": "chunks/000008.json"
+    },
+    {
+      "chunk": 9,
+      "simulated_seconds": 13.8000000000003,
+      "health": 100.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          0.45,
+          -3.9
+        ],
+        "crown": true,
+        "duration": 1.2,
+        "hold_lance": true,
+        "id": 9.0,
+        "move": [
+          0.0,
+          -1.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.738377, 0.0, 0.674388)",
+        "attack_origin": "(0.690865, 0.0, -3.59342)",
+        "attack_target": [
+          4.92999744415283,
+          0.278337925672531
+        ],
+        "cooldown": -0.716666666666668,
+        "hp": 930.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          0.650229513645172,
+          -3.60571718215942
+        ],
+        "state": "windup",
+        "timer": 0.283333333333332
+      },
+      "hazards": [],
+      "source": "chunks/000009.json"
+    },
+    {
+      "chunk": 10,
+      "simulated_seconds": 15.0333333333337,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          0.65,
+          -3.6
+        ],
+        "dash": true,
+        "duration": 1.2,
+        "hold_lance": true,
+        "id": 10.0,
+        "move": [
+          -1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(0.738377, 0.0, 0.674388)",
+        "attack_origin": "(0.690865, 0.0, -3.59342)",
+        "attack_target": [
+          4.92999744415283,
+          0.278337925672531
+        ],
+        "cooldown": 0.950000000000003,
+        "hp": 835.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          0.448713600635529,
+          -3.63794755935669
+        ],
+        "state": "idle",
+        "timer": -0.3
+      },
+      "hazards": [],
+      "source": "chunks/000010.json"
+    },
+    {
+      "chunk": 11,
+      "simulated_seconds": 17.266666666667,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -4.86,
+          -8.16
+        ],
+        "duration": 2.2,
+        "hold_lance": true,
+        "id": 11.0,
+        "move": [
+          0.0,
+          0.5
+        ]
+      },
+      "guardian": {
+        "attack": "pulse",
+        "attack_direction": "(-0.930961, 0.0, 0.365118)",
+        "attack_origin": "(-0.306583, 0.0, -3.49599)",
+        "attack_target": [
+          -4.8700008392334,
+          -1.70624089241028
+        ],
+        "cooldown": 1.63333333333333,
+        "hp": 835.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.306583255529404,
+          -3.49599003791809
+        ],
+        "state": "recover",
+        "timer": 0.383333333333333
+      },
+      "hazards": [
+        {
+          "age": 0.283333333333333,
+          "already_hit": false,
+          "origin": "(-0.306583, 0.0, -3.49599)",
+          "radius": 1.7
+        }
+      ],
+      "source": "chunks/000011.json"
+    },
+    {
+      "chunk": 12,
+      "simulated_seconds": 17.8333333333336,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -0.3,
+          -3.5
+        ],
+        "dash": true,
+        "duration": 0.55,
+        "hold_lance": true,
+        "id": 12.0,
+        "move": [
+          0.72,
+          -0.69
+        ]
+      },
+      "guardian": {
+        "attack": "pulse",
+        "attack_direction": "(-0.930961, 0.0, 0.365118)",
+        "attack_origin": "(-0.306583, 0.0, -3.49599)",
+        "attack_target": [
+          -4.8700008392334,
+          -1.70624089241028
+        ],
+        "cooldown": 1.06666666666667,
+        "hp": 801.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.329941362142563,
+          -3.48707938194275
+        ],
+        "state": "idle",
+        "timer": -0.183333333333334
+      },
+      "hazards": [
+        {
+          "age": 0.850000000000001,
+          "already_hit": true,
+          "origin": "(-0.306583, 0.0, -3.49599)",
+          "radius": 5.10000000000001
+        }
+      ],
+      "source": "chunks/000012.json"
+    },
+    {
+      "chunk": 13,
+      "simulated_seconds": 19.4666666666668,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -0.3,
+          -3.5
+        ],
+        "duration": 1.6,
+        "hold_lance": true,
+        "id": 13.0,
+        "move": [
+          -0.2,
+          1.0
+        ]
+      },
+      "guardian": {
+        "attack": "slam",
+        "attack_direction": "(-0.209154, 0.0, 0.977883)",
+        "attack_origin": "(-0.392182, 0.0, -3.244802)",
+        "attack_target": [
+          -1.58655560016632,
+          2.33938074111938
+        ],
+        "cooldown": -0.566666666666665,
+        "hp": 699.0,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.388106137514114,
+          -3.26946568489075
+        ],
+        "state": "windup",
+        "timer": 0.449999999999999
+      },
+      "hazards": [],
+      "source": "chunks/000013.json"
+    },
+    {
+      "chunk": 14,
+      "simulated_seconds": 21.6000000000001,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -0.4,
+          -3.3
+        ],
+        "crown": true,
+        "duration": 2.1,
+        "hold_lance": true,
+        "id": 14.0
+      },
+      "guardian": {
+        "attack": "slam",
+        "attack_direction": "(-0.209154, 0.0, 0.977883)",
+        "attack_origin": "(-0.392182, 0.0, -3.244802)",
+        "attack_target": [
+          -1.58655560016632,
+          2.33938074111938
+        ],
+        "cooldown": 0.216666666666668,
+        "hp": 418.68,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.525680184364319,
+          -2.65270113945007
+        ],
+        "state": "idle",
+        "timer": -1.03333333333333
+      },
+      "hazards": [],
+      "source": "chunks/000014.json"
+    },
+    {
+      "chunk": 15,
+      "simulated_seconds": 23.1333333333333,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -0.53,
+          -2.65
+        ],
+        "cat": true,
+        "duration": 1.5,
+        "hold_lance": true,
+        "id": 15.0,
+        "move": [
+          1.0,
+          0.0
+        ]
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(-0.072925, 0.0, 0.997337)",
+        "attack_origin": "(-0.542888, 0.0, -2.516054)",
+        "attack_target": [
+          -1.11480760574341,
+          5.30563497543335
+        ],
+        "cooldown": 1.6,
+        "hp": 79.6799999999999,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.571559250354767,
+          -2.53759503364563
+        ],
+        "state": "recover",
+        "timer": 0.35
+      },
+      "hazards": [],
+      "source": "chunks/000015.json"
+    },
+    {
+      "chunk": 16,
+      "simulated_seconds": 24.9666666666665,
+      "health": 87.0,
+      "state": "run",
+      "phase_two": true,
+      "command": {
+        "aim": [
+          -0.57,
+          -2.54
+        ],
+        "duration": 1.8,
+        "hold_lance": true,
+        "id": 16.0
+      },
+      "guardian": {
+        "attack": "fan",
+        "attack_direction": "(-0.072925, 0.0, 0.997337)",
+        "attack_origin": "(-0.542888, 0.0, -2.516054)",
+        "attack_target": [
+          -1.11480760574341,
+          5.30563497543335
+        ],
+        "cooldown": -0.233333333333332,
+        "hp": -22.3200000000001,
+        "id": 1,
+        "kind": "warden",
+        "phase": 2,
+        "position": [
+          -0.102696053683758,
+          -1.94783961772919
+        ],
+        "state": "dead",
+        "timer": 0.0466666666666667
+      },
+      "hazards": [],
+      "source": "chunks/000016.json"
+    },
+    {
+      "chunk": 17,
+      "simulated_seconds": 25.0166666666665,
+      "health": 87.0,
+      "state": "victory",
+      "phase_two": true,
+      "command": {
+        "duration": 0.25,
+        "id": 17.0
+      },
+      "guardian": null,
+      "hazards": [],
+      "source": "chunks/000017.json"
+    }
+  ],
+  "observations": {
+    "phase_one_attacks_observed": [
+      "fan",
+      "slam"
+    ],
+    "phase_two_attacks_observed": [
+      "fan",
+      "pulse",
+      "slam"
+    ],
+    "slam_escape": {
+      "before_chunk": 5,
+      "after_chunk": 6,
+      "health_before": 100,
+      "health_after": 100
+    },
+    "pulse_crossing": {
+      "before_chunk": 11,
+      "after_chunk": 12,
+      "radius_before": 1.7,
+      "radius_after": 5.1,
+      "health_before": 87,
+      "health_after": 87
+    },
+    "directed_command_count_to_victory": 17
+  },
+  "selected_images": [
+    "chunks/000003.png",
+    "chunks/000005.png",
+    "chunks/000006.png",
+    "chunks/000007.png",
+    "chunks/000009.png",
+    "chunks/000012.png",
+    "chunks/000015.png",
+    "chunks/000017.png"
+  ]
+}

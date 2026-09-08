@@ -1,0 +1,280 @@
+{
+	"boss_fixture_modifiers": [
+		"pierce",
+		"chain",
+		"aftershock"
+	],
+	"command": {
+		"aim": [
+			-4.86,
+			-8.16
+		],
+		"duration": 2.2,
+		"hold_lance": true,
+		"id": 11.0,
+		"move": [
+			0.0,
+			0.5
+		]
+	},
+	"duration_seconds": 2.20827299999999,
+	"game": {
+		"aim": [
+			-4.8600001335144,
+			-8.15999984741211
+		],
+		"casts": 35,
+		"charge": 72.8,
+		"choices": [],
+		"crown_cooldown": 1.35000000000002,
+		"crown_shards": 0,
+		"dash_cooldown": 0.0,
+		"elapsed": 17.266666666667,
+		"enemies": [
+			{
+				"hp": 835.0,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					-0.306583255529404,
+					-3.49599003791809
+				],
+				"state": "recover"
+			},
+			{
+				"hp": 7.0,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					7.25649499893188,
+					1.69393014907837
+				],
+				"state": "idle"
+			},
+			{
+				"hp": 14.68,
+				"id": 3,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					-2.11698174476624,
+					-3.95848917961121
+				],
+				"state": "idle"
+			},
+			{
+				"hp": -21.0,
+				"id": 4,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-5.00744104385376,
+					-9.5415735244751
+				],
+				"state": "dead"
+			},
+			{
+				"hp": 85.0,
+				"id": 5,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					4.18240785598755,
+					0.190879940986633
+				],
+				"state": "idle"
+			}
+		],
+		"enemy_details": [
+			{
+				"attack": "pulse",
+				"attack_direction": "(-0.930961, 0.0, 0.365118)",
+				"attack_origin": "(-0.306583, 0.0, -3.49599)",
+				"attack_target": [
+					-4.8700008392334,
+					-1.70624089241028
+				],
+				"cooldown": 1.63333333333333,
+				"hp": 835.0,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					-0.306583255529404,
+					-3.49599003791809
+				],
+				"state": "recover",
+				"timer": 0.383333333333333
+			},
+			{
+				"attack": "bolt",
+				"attack_direction": "(-0.871727, 0.0, -0.489993)",
+				"attack_origin": "(9.362339, 0.0, 1.611399)",
+				"attack_target": [
+					4.92999744415283,
+					-0.879995465278625
+				],
+				"cooldown": -1.88333333333333,
+				"hp": 7.0,
+				"id": 2,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					7.25649499893188,
+					1.69393014907837
+				],
+				"state": "idle",
+				"timer": -2.28333333333333
+			},
+			{
+				"attack": "",
+				"attack_direction": "(0.0, 0.0, 0.0)",
+				"attack_origin": "(-2.116982, 0.0, -3.958489)",
+				"attack_target": [
+					0.0,
+					0.0
+				],
+				"cooldown": -3.7479868111511,
+				"hp": 14.68,
+				"id": 3,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					-2.11698174476624,
+					-3.95848917961121
+				],
+				"state": "idle",
+				"timer": -3.58333333333333
+			},
+			{
+				"attack": "bolt",
+				"attack_direction": "(0.656695, 0.0, 0.754156)",
+				"attack_origin": "(-4.861971, 0.0, -8.161571)",
+				"attack_target": [
+					-0.911669611930847,
+					-3.62499475479126
+				],
+				"cooldown": 0.0833333333333327,
+				"hp": -21.0,
+				"id": 4,
+				"kind": "channeler",
+				"phase": 1,
+				"position": [
+					-5.00744104385376,
+					-9.5415735244751
+				],
+				"state": "dead",
+				"timer": 0.38
+			},
+			{
+				"attack": "",
+				"attack_direction": "(0.0, 0.0, 0.0)",
+				"attack_origin": "(4.182408, 0.0, 0.19088)",
+				"attack_target": [
+					0.0,
+					0.0
+				],
+				"cooldown": -1.61466598113378,
+				"hp": 85.0,
+				"id": 5,
+				"kind": "shardling",
+				"phase": 1,
+				"position": [
+					4.18240785598755,
+					0.190879940986633
+				],
+				"state": "idle",
+				"timer": -2.38333333333333
+			}
+		],
+		"hazard_details": [
+			{
+				"age": 0.283333333333333,
+				"already_hit": false,
+				"origin": "(-0.306583, 0.0, -3.49599)",
+				"radius": 1.7
+			}
+		],
+		"health": 87.0,
+		"kills": 1,
+		"lance_cooldown": 0.333333333333333,
+		"modifiers": [
+			"pierce",
+			"chain",
+			"aftershock"
+		],
+		"pending": 0,
+		"pending_modifier": "",
+		"player": [
+			-4.8700008392334,
+			0.912508904933929
+		],
+		"projectiles": 0,
+		"spawn_queue": [],
+		"state": "run",
+		"telemetry": {
+			"boss_phase_two": true,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 50,
+			"max_projectiles": 12,
+			"secondary_hits": 3,
+			"ultimate_spent": 1,
+			"waves_completed": 0
+		},
+		"wave": 6
+	},
+	"id": 11,
+	"input_log": [
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"aim": [
+					-4.8600001335144,
+					-8.15999984741211
+				],
+				"duration": 2.2,
+				"state": "run"
+			},
+			"event": "begin",
+			"physics_frame": 18916
+		},
+		{
+			"at_seconds": 0.0,
+			"data": {
+				"lance": true,
+				"movement": [
+					0.0,
+					0.5
+				],
+				"one_shots": []
+			},
+			"event": "named_inputs",
+			"physics_frame": 18918
+		},
+		{
+			"at_seconds": 0.0333333333333333,
+			"data": {},
+			"event": "release_one_shots",
+			"physics_frame": 18920
+		},
+		{
+			"at_seconds": 2.20827299999999,
+			"data": {
+				"elapsed": 2.20827299999999,
+				"state": "run"
+			},
+			"event": "end",
+			"physics_frame": 19050
+		}
+	],
+	"label": "chunk",
+	"last_command_id": 11,
+	"mode": "boss",
+	"png": "/Users/kirilpetrovski/Documents/coding/Game Dev/astra godot spell game/work/guided-boss/chunks/000011.png",
+	"rendered": true,
+	"review_paused": true,
+	"scope": "Agent-directed application-level review, with fixed manually supplied aim and bounded named inputs. No autonomous target selection, combat stat overrides, or human-playtest claim. OS focus behavior is not exercised by this adapter."
+}

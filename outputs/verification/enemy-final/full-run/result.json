@@ -1,0 +1,1120 @@
+{
+	"checks": {
+		"phase_two": true,
+		"six_waves": true,
+		"victory": true
+	},
+	"game": {
+		"casts": 188,
+		"charge": 2.8,
+		"crown_shards": 0,
+		"elapsed": 107.499999999995,
+		"enemies": [],
+		"health": 60.0,
+		"kills": 101,
+		"modifiers": [
+			"pierce",
+			"overload",
+			"aftershock"
+		],
+		"pending": 1,
+		"player": [
+			0.696537613868713,
+			6.11736536026001
+		],
+		"projectiles": 7,
+		"state": "victory",
+		"telemetry": {
+			"boss_phase_two": true,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 279,
+			"max_projectiles": 12,
+			"secondary_hits": 49,
+			"ultimate_spent": 8,
+			"waves_completed": 6
+		},
+		"wave": 6
+	},
+	"passed": true,
+	"performance": {
+		"frame_spikes": [
+			{
+				"casts": 26,
+				"frame_ms": 101.692,
+				"fx": {
+					"effects": 56,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 1,
+				"wall_seconds": 8.079444
+			},
+			{
+				"casts": 51,
+				"frame_ms": 101.953,
+				"fx": {
+					"effects": 44,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"ultimate_spent": 2,
+				"wall_seconds": 15.462491
+			},
+			{
+				"casts": 75,
+				"frame_ms": 103.252,
+				"fx": {
+					"effects": 27,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"ultimate_spent": 3,
+				"wall_seconds": 22.563824
+			},
+			{
+				"casts": 120,
+				"frame_ms": 100.825,
+				"fx": {
+					"effects": 56,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"ultimate_spent": 5,
+				"wall_seconds": 37.811456
+			},
+			{
+				"casts": 161,
+				"frame_ms": 104.437,
+				"fx": {
+					"effects": 39,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"ultimate_spent": 6,
+				"wall_seconds": 49.148013
+			}
+		],
+		"frames": 5862,
+		"frames_over_20ms": 5,
+		"max_ms": 104.437,
+		"measurement": "monotonic wall-clock intervals after 5s warmup; recording/fixed-FPS runs are not performance evidence",
+		"median_ms": 8.324,
+		"monitor_samples": [],
+		"p95_ms": 8.787,
+		"p99_ms": 10.124,
+		"renderer": "forward_plus",
+		"settings": {
+			"ambience": 0.4,
+			"effects": 0.8,
+			"master": 0.8,
+			"reduced_flash": false,
+			"reduced_particles": false,
+			"shake": 0.45
+		},
+		"viewport_size": "(1600.0, 900.0)",
+		"wall_seconds": 55.997198,
+		"window_size": "(1280, 720)"
+	},
+	"rendered": true,
+	"samples": [
+		{
+			"casts": 0,
+			"charge": 35.0,
+			"crown_shards": 0,
+			"elapsed": 0.0166666666666667,
+			"enemies": [],
+			"health": 100.0,
+			"kills": 0,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				0.0,
+				5.0
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 1
+		},
+		{
+			"game": {
+				"casts": 8,
+				"charge": 60.2,
+				"crown_shards": 0,
+				"elapsed": 5.01666666666665,
+				"enemies": [
+					{
+						"hp": 16.0,
+						"id": 4,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.65044927597046,
+							2.31507444381714
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 6,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-3.0822160243988,
+							4.62525606155396
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 7,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							6.94511365890503,
+							1.08838665485382
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 8,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							9.17046737670898,
+							-0.608443319797516
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 9,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							9.25467300415039,
+							-2.14500093460083
+						],
+						"state": "spawn"
+					},
+					{
+						"hp": 50.0,
+						"id": 10,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-8.50735473632812,
+							4.2278733253479
+						],
+						"state": "spawn"
+					}
+				],
+				"health": 100.0,
+				"kills": 4,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					3.79340314865112,
+					-2.02782797813416
+				],
+				"projectiles": 0,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 1
+			},
+			"label": "wave-01-combat"
+		},
+		{
+			"game": {
+				"casts": 17,
+				"charge": 90.9999999999999,
+				"crown_shards": 0,
+				"elapsed": 9.96666666666674,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 10,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					9.34221172332764,
+					0.157595068216324
+				],
+				"projectiles": 4,
+				"state": "upgrade",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 1
+			},
+			"label": "upgrade-01"
+		},
+		{
+			"casts": 17,
+			"charge": 90.9999999999999,
+			"crown_shards": 0,
+			"elapsed": 9.98333333333341,
+			"enemies": [],
+			"health": 100.0,
+			"kills": 10,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				9.36773777008057,
+				0.247369855642319
+			],
+			"projectiles": 4,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 2
+		},
+		{
+			"game": {
+				"casts": 26,
+				"charge": 14.0,
+				"crown_shards": 1,
+				"elapsed": 14.9833333333337,
+				"enemies": [
+					{
+						"hp": -11.0,
+						"id": 13,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.21380090713501,
+							3.32700061798096
+						],
+						"state": "dead"
+					},
+					{
+						"hp": 34.0,
+						"id": 14,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-7.12190818786621,
+							-3.41251492500305
+						],
+						"state": "stagger"
+					},
+					{
+						"hp": 50.0,
+						"id": 15,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							4.86191892623901,
+							0.945585072040558
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 68.0,
+						"id": 17,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-4.49084043502808,
+							-7.21644687652588
+						],
+						"state": "windup"
+					},
+					{
+						"hp": 50.0,
+						"id": 18,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-6.74474668502808,
+							-6.24051666259766
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 19,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-9.44594478607178,
+							-1.01199352741241
+						],
+						"state": "spawn"
+					},
+					{
+						"hp": 68.0,
+						"id": 20,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-2.22988724708557,
+							9.23458766937256
+						],
+						"state": "spawn"
+					}
+				],
+				"health": 100.0,
+				"kills": 14,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-3.51002860069275,
+					-0.696299016475677
+				],
+				"projectiles": 6,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 2
+			},
+			"label": "wave-02-combat"
+		},
+		{
+			"game": {
+				"casts": 42,
+				"charge": 84.0,
+				"crown_shards": 0,
+				"elapsed": 23.8999999999999,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 26,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-2.93381500244141,
+					2.95704698562622
+				],
+				"projectiles": 0,
+				"state": "upgrade",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 2
+			},
+			"label": "upgrade-02"
+		},
+		{
+			"casts": 42,
+			"charge": 84.0,
+			"crown_shards": 0,
+			"elapsed": 23.9166666666666,
+			"enemies": [],
+			"health": 100.0,
+			"kills": 26,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				-2.93381500244141,
+				2.864333152771
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 3
+		},
+		{
+			"game": {
+				"casts": 51,
+				"charge": 14.0,
+				"crown_shards": 0,
+				"elapsed": 28.9166666666663,
+				"enemies": [
+					{
+						"hp": 102.0,
+						"id": 30,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							5.04247331619263,
+							-1.12048959732056
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 16.0,
+						"id": 31,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							3.78538846969604,
+							3.06779932975769
+						],
+						"state": "idle"
+					},
+					{
+						"hp": -18.0,
+						"id": 32,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							0.00184247829020023,
+							5.96644067764282
+						],
+						"state": "dead"
+					},
+					{
+						"hp": 136.0,
+						"id": 33,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							7.99681949615479,
+							-1.05705988407135
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 34,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							2.84938335418701,
+							-8.74103736877441
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 35,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-7.49039840698242,
+							-5.84328079223633
+						],
+						"state": "spawn"
+					},
+					{
+						"hp": 136.0,
+						"id": 36,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-9.11164569854736,
+							-2.68847751617432
+						],
+						"state": "spawn"
+					}
+				],
+				"health": 100.0,
+				"kills": 30,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-2.57931208610535,
+					-1.6642119884491
+				],
+				"projectiles": 2,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 3
+			},
+			"label": "wave-03-combat"
+		},
+		{
+			"game": {
+				"casts": 66,
+				"charge": 92.3999999999999,
+				"crown_shards": 0,
+				"elapsed": 37.2666666666658,
+				"enemies": [],
+				"health": 100.0,
+				"kills": 42,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-8.81592655181885,
+					-1.13560390472412
+				],
+				"projectiles": 0,
+				"state": "upgrade",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 3
+			},
+			"label": "upgrade-03"
+		},
+		{
+			"casts": 66,
+			"charge": 92.3999999999999,
+			"crown_shards": 0,
+			"elapsed": 37.2833333333325,
+			"enemies": [],
+			"health": 100.0,
+			"kills": 42,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				-8.81592655181885,
+				-1.22723710536957
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 4
+		},
+		{
+			"game": {
+				"casts": 75,
+				"charge": 14.0,
+				"crown_shards": 0,
+				"elapsed": 42.2833333333322,
+				"enemies": [
+					{
+						"hp": 16.0,
+						"id": 46,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							6.49180936813354,
+							-1.84334361553192
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 68.0,
+						"id": 47,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							2.21517372131348,
+							4.73714876174927
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 136.0,
+						"id": 48,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-1.36072599887848,
+							6.3656964302063
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 49,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-1.01852607727051,
+							7.37052631378174
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 68.0,
+						"id": 50,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-3.10006070137024,
+							8.82422924041748
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 136.0,
+						"id": 51,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							8.69889354705811,
+							3.81827807426453
+						],
+						"state": "spawn"
+					},
+					{
+						"hp": 50.0,
+						"id": 52,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-3.75018262863159,
+							8.72846698760986
+						],
+						"state": "spawn"
+					}
+				],
+				"health": 100.0,
+				"kills": 45,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					5.53083610534668,
+					-6.17200756072998
+				],
+				"projectiles": 0,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 4
+			},
+			"label": "wave-04-combat"
+		},
+		{
+			"game": {
+				"casts": 111,
+				"charge": 78.4,
+				"crown_shards": 0,
+				"elapsed": 66.9166666666642,
+				"enemies": [],
+				"health": 81.0,
+				"kills": 66,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-3.66345071792603,
+					-8.65462589263916
+				],
+				"projectiles": 0,
+				"state": "upgrade",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 4
+			},
+			"label": "upgrade-04"
+		},
+		{
+			"casts": 111,
+			"charge": 78.4,
+			"crown_shards": 0,
+			"elapsed": 66.9333333333308,
+			"enemies": [],
+			"health": 81.0,
+			"kills": 66,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				-3.59162044525146,
+				-8.71422004699707
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 5
+		},
+		{
+			"game": {
+				"casts": 120,
+				"charge": 8.4,
+				"crown_shards": 0,
+				"elapsed": 71.9333333333305,
+				"enemies": [
+					{
+						"hp": 16.0,
+						"id": 71,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-3.03515100479126,
+							-2.05449056625366
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 34.0,
+						"id": 72,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							7.965980052948,
+							4.76491594314575
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 73,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							7.66037559509277,
+							-1.11383664608002
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 136.0,
+						"id": 74,
+						"kind": "bulwark",
+						"phase": 1,
+						"position": [
+							-2.90501642227173,
+							-8.80459403991699
+						],
+						"state": "idle"
+					},
+					{
+						"hp": 50.0,
+						"id": 75,
+						"kind": "shardling",
+						"phase": 1,
+						"position": [
+							-9.44278526306152,
+							-1.04106390476227
+						],
+						"state": "spawn"
+					},
+					{
+						"hp": 68.0,
+						"id": 76,
+						"kind": "channeler",
+						"phase": 1,
+						"position": [
+							-6.59277486801147,
+							6.83997917175293
+						],
+						"state": "spawn"
+					}
+				],
+				"health": 81.0,
+				"kills": 70,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 1,
+				"player": [
+					-3.03890013694763,
+					4.4794921875
+				],
+				"projectiles": 3,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 5
+			},
+			"label": "wave-05-combat"
+		},
+		{
+			"game": {
+				"casts": 153,
+				"charge": 64.4,
+				"crown_shards": 0,
+				"elapsed": 88.7499999999962,
+				"enemies": [],
+				"health": 93.0,
+				"kills": 96,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					-7.71110677719116,
+					-5.32011461257935
+				],
+				"projectiles": 7,
+				"state": "upgrade",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 5
+			},
+			"label": "upgrade-05"
+		},
+		{
+			"casts": 153,
+			"charge": 64.4,
+			"crown_shards": 0,
+			"elapsed": 88.7666666666629,
+			"enemies": [],
+			"health": 93.0,
+			"kills": 96,
+			"modifiers": [
+				"pierce",
+				"overload",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				-7.68255996704102,
+				-5.40897512435913
+			],
+			"projectiles": 7,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 279,
+				"max_projectiles": 12,
+				"secondary_hits": 49,
+				"ultimate_spent": 8,
+				"waves_completed": 6
+			},
+			"wave": 6
+		},
+		{
+			"game": {
+				"casts": 161,
+				"charge": 84.0,
+				"crown_shards": 6,
+				"elapsed": 93.7666666666626,
+				"enemies": [
+					{
+						"hp": 1552.0,
+						"id": 97,
+						"kind": "warden",
+						"phase": 1,
+						"position": [
+							0.940771639347076,
+							-5.17529964447021
+						],
+						"state": "recover"
+					}
+				],
+				"health": 93.0,
+				"kills": 96,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					8.78931999206543,
+					1.72701930999756
+				],
+				"projectiles": 6,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 6
+			},
+			"label": "wave-06-combat"
+		},
+		{
+			"game": {
+				"casts": 188,
+				"charge": 2.8,
+				"crown_shards": 0,
+				"elapsed": 107.499999999995,
+				"enemies": [],
+				"health": 60.0,
+				"kills": 101,
+				"modifiers": [
+					"pierce",
+					"overload",
+					"aftershock"
+				],
+				"pending": 1,
+				"player": [
+					0.696537613868713,
+					6.11736536026001
+				],
+				"projectiles": 7,
+				"state": "victory",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 279,
+					"max_projectiles": 12,
+					"secondary_hits": 49,
+					"ultimate_spent": 8,
+					"waves_completed": 6
+				},
+				"wave": 6
+			},
+			"label": "result"
+		}
+	],
+	"scenario": "run"
+}

@@ -1,0 +1,667 @@
+{
+	"checks": {
+		"at_least_two_ultimates": true,
+		"guardian_two_phases": true,
+		"rendered_realtime": true,
+		"sixty_seconds_after_warmup": true
+	},
+	"game": {
+		"casts": 132,
+		"charge": 58.8,
+		"crown_shards": 0,
+		"elapsed": 65.1499999999976,
+		"enemies": [
+			{
+				"hp": 44567.4,
+				"id": 1,
+				"kind": "warden",
+				"phase": 2,
+				"position": [
+					-0.280020117759705,
+					-1.86441648006439
+				],
+				"state": "idle"
+			}
+		],
+		"health": 99920.0,
+		"kills": 4,
+		"modifiers": [
+			"pierce",
+			"chain",
+			"aftershock"
+		],
+		"pending": 0,
+		"player": [
+			7.61112499237061,
+			-4.7653021812439
+		],
+		"projectiles": 5,
+		"state": "run",
+		"telemetry": {
+			"boss_phase_two": true,
+			"children_omitted": 0,
+			"deaths": 0,
+			"direct_hits": 194,
+			"max_projectiles": 12,
+			"secondary_hits": 28,
+			"ultimate_spent": 7,
+			"waves_completed": 0
+		},
+		"wave": 6
+	},
+	"passed": true,
+	"performance": {
+		"frame_spikes": [],
+		"frames": 7202,
+		"frames_over_20ms": 0,
+		"max_ms": 17.472,
+		"measurement": "monotonic wall-clock intervals after 5s warmup; recording/fixed-FPS runs are not performance evidence",
+		"median_ms": 8.305,
+		"monitor_samples": [
+			{
+				"draw_calls": 0.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 0,
+					"light_limit": 6,
+					"lights": 0,
+					"limit": 130
+				},
+				"nodes": 293,
+				"physics_ms": 0.0,
+				"process_ms": 0.0,
+				"projectiles": 0,
+				"time": 0.063569
+			},
+			{
+				"draw_calls": 293.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 26,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 377,
+				"physics_ms": 4.193,
+				"process_ms": 8.839,
+				"projectiles": 4,
+				"time": 2.066859
+			},
+			{
+				"draw_calls": 336.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 74,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 484,
+				"physics_ms": 5.592,
+				"process_ms": 9.229,
+				"projectiles": 8,
+				"time": 4.076604
+			},
+			{
+				"draw_calls": 299.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 35,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 391,
+				"physics_ms": 2.961,
+				"process_ms": 9.039,
+				"projectiles": 5,
+				"time": 6.083121
+			},
+			{
+				"draw_calls": 298.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 30,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 390,
+				"physics_ms": 5.465,
+				"process_ms": 9.244,
+				"projectiles": 4,
+				"time": 8.083581
+			},
+			{
+				"draw_calls": 328.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 71,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 473,
+				"physics_ms": 3.886,
+				"process_ms": 9.082,
+				"projectiles": 8,
+				"time": 10.093638
+			},
+			{
+				"draw_calls": 282.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 25,
+					"light_limit": 6,
+					"lights": 1,
+					"limit": 130
+				},
+				"nodes": 362,
+				"physics_ms": 3.844,
+				"process_ms": 9.069,
+				"projectiles": 5,
+				"time": 12.100071
+			},
+			{
+				"draw_calls": 308.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 31,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 399,
+				"physics_ms": 3.819,
+				"process_ms": 9.091,
+				"projectiles": 4,
+				"time": 14.100719
+			},
+			{
+				"draw_calls": 268.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 43,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 398,
+				"physics_ms": 3.652,
+				"process_ms": 8.963,
+				"projectiles": 3,
+				"time": 16.109384
+			},
+			{
+				"draw_calls": 293.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 32,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 378,
+				"physics_ms": 3.531,
+				"process_ms": 9.08,
+				"projectiles": 5,
+				"time": 18.116351
+			},
+			{
+				"draw_calls": 321.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 56,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 453,
+				"physics_ms": 3.719,
+				"process_ms": 8.971,
+				"projectiles": 9,
+				"time": 20.116399
+			},
+			{
+				"draw_calls": 301.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 46,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 405,
+				"physics_ms": 4.044,
+				"process_ms": 9.454,
+				"projectiles": 3,
+				"time": 22.126243
+			},
+			{
+				"draw_calls": 291.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 31,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 375,
+				"physics_ms": 2.94,
+				"process_ms": 8.976,
+				"projectiles": 5,
+				"time": 24.133063
+			},
+			{
+				"draw_calls": 299.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 33,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 393,
+				"physics_ms": 5.175,
+				"process_ms": 8.977,
+				"projectiles": 4,
+				"time": 26.142733
+			},
+			{
+				"draw_calls": 333.0,
+				"enemies": 3,
+				"fx": {
+					"effects": 47,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 499,
+				"physics_ms": 3.933,
+				"process_ms": 9.018,
+				"projectiles": 3,
+				"time": 28.149319
+			},
+			{
+				"draw_calls": 318.0,
+				"enemies": 5,
+				"fx": {
+					"effects": 32,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 558,
+				"physics_ms": 5.345,
+				"process_ms": 8.913,
+				"projectiles": 5,
+				"time": 30.150363
+			},
+			{
+				"draw_calls": 376.0,
+				"enemies": 5,
+				"fx": {
+					"effects": 67,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 672,
+				"physics_ms": 5.538,
+				"process_ms": 9.052,
+				"projectiles": 9,
+				"time": 32.158823
+			},
+			{
+				"draw_calls": 336.0,
+				"enemies": 3,
+				"fx": {
+					"effects": 49,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 507,
+				"physics_ms": 5.796,
+				"process_ms": 8.863,
+				"projectiles": 3,
+				"time": 34.159457
+			},
+			{
+				"draw_calls": 276.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 17,
+					"light_limit": 6,
+					"lights": 5,
+					"limit": 130
+				},
+				"nodes": 341,
+				"physics_ms": 4.283,
+				"process_ms": 8.883,
+				"projectiles": 0,
+				"time": 36.165912
+			},
+			{
+				"draw_calls": 314.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 48,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 440,
+				"physics_ms": 3.912,
+				"process_ms": 8.907,
+				"projectiles": 9,
+				"time": 38.174878
+			},
+			{
+				"draw_calls": 286.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 44,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 401,
+				"physics_ms": 3.521,
+				"process_ms": 8.999,
+				"projectiles": 3,
+				"time": 40.175905
+			},
+			{
+				"draw_calls": 291.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 31,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 375,
+				"physics_ms": 3.133,
+				"process_ms": 9.106,
+				"projectiles": 5,
+				"time": 42.183512
+			},
+			{
+				"draw_calls": 293.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 29,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 382,
+				"physics_ms": 3.192,
+				"process_ms": 8.872,
+				"projectiles": 4,
+				"time": 44.183603
+			},
+			{
+				"draw_calls": 304.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 51,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 423,
+				"physics_ms": 4.801,
+				"process_ms": 9.039,
+				"projectiles": 3,
+				"time": 46.192701
+			},
+			{
+				"draw_calls": 294.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 33,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 380,
+				"physics_ms": 2.97,
+				"process_ms": 8.983,
+				"projectiles": 5,
+				"time": 48.199979
+			},
+			{
+				"draw_calls": 310.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 45,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 424,
+				"physics_ms": 3.59,
+				"process_ms": 8.706,
+				"projectiles": 9,
+				"time": 50.200034
+			},
+			{
+				"draw_calls": 299.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 44,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 397,
+				"physics_ms": 3.297,
+				"process_ms": 9.066,
+				"projectiles": 3,
+				"time": 52.200289
+			},
+			{
+				"draw_calls": 267.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 10,
+					"light_limit": 6,
+					"lights": 4,
+					"limit": 130
+				},
+				"nodes": 324,
+				"physics_ms": 3.094,
+				"process_ms": 8.938,
+				"projectiles": 0,
+				"time": 54.207865
+			},
+			{
+				"draw_calls": 315.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 50,
+					"light_limit": 6,
+					"lights": 2,
+					"limit": 130
+				},
+				"nodes": 437,
+				"physics_ms": 3.414,
+				"process_ms": 8.885,
+				"projectiles": 9,
+				"time": 56.209235
+			},
+			{
+				"draw_calls": 324.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 62,
+					"light_limit": 6,
+					"lights": 6,
+					"limit": 130
+				},
+				"nodes": 465,
+				"physics_ms": 3.681,
+				"process_ms": 8.982,
+				"projectiles": 8,
+				"time": 58.209567
+			},
+			{
+				"draw_calls": 284.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 27,
+					"light_limit": 6,
+					"lights": 1,
+					"limit": 130
+				},
+				"nodes": 356,
+				"physics_ms": 4.048,
+				"process_ms": 9.128,
+				"projectiles": 0,
+				"time": 60.216429
+			},
+			{
+				"draw_calls": 288.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 27,
+					"light_limit": 6,
+					"lights": 3,
+					"limit": 130
+				},
+				"nodes": 375,
+				"physics_ms": 3.33,
+				"process_ms": 8.815,
+				"projectiles": 4,
+				"time": 62.216793
+			},
+			{
+				"draw_calls": 314.0,
+				"enemies": 1,
+				"fx": {
+					"effects": 69,
+					"light_limit": 6,
+					"lights": 1,
+					"limit": 130
+				},
+				"nodes": 459,
+				"physics_ms": 3.753,
+				"process_ms": 9.035,
+				"projectiles": 8,
+				"time": 64.216999
+			}
+		],
+		"p95_ms": 10.036,
+		"p99_ms": 11.502,
+		"renderer": "forward_plus",
+		"settings": {
+			"ambience": 0.4,
+			"effects": 0.8,
+			"master": 0.8,
+			"reduced_flash": false,
+			"reduced_particles": false,
+			"shake": 0.45
+		},
+		"viewport_size": "(1600.0, 900.0)",
+		"wall_seconds": 65.010319,
+		"window_size": "(1920, 1080)"
+	},
+	"rendered": true,
+	"samples": [
+		{
+			"casts": 0,
+			"charge": 35.0,
+			"crown_shards": 0,
+			"elapsed": 0.133333333333333,
+			"enemies": [
+				{
+					"hp": 100000,
+					"id": 1,
+					"kind": "warden",
+					"phase": 1,
+					"position": [
+						0.0,
+						-4.0
+					],
+					"state": "spawn"
+				}
+			],
+			"health": 100000.0,
+			"kills": 0,
+			"modifiers": [
+				"pierce",
+				"chain",
+				"aftershock"
+			],
+			"pending": 0,
+			"player": [
+				0.0,
+				5.0
+			],
+			"projectiles": 0,
+			"state": "run",
+			"telemetry": {
+				"boss_phase_two": true,
+				"children_omitted": 0,
+				"deaths": 0,
+				"direct_hits": 194,
+				"max_projectiles": 12,
+				"secondary_hits": 28,
+				"ultimate_spent": 7,
+				"waves_completed": 0
+			},
+			"wave": 6
+		},
+		{
+			"game": {
+				"casts": 132,
+				"charge": 58.8,
+				"crown_shards": 0,
+				"elapsed": 65.1499999999976,
+				"enemies": [
+					{
+						"hp": 44567.4,
+						"id": 1,
+						"kind": "warden",
+						"phase": 2,
+						"position": [
+							-0.280020117759705,
+							-1.86441648006439
+						],
+						"state": "idle"
+					}
+				],
+				"health": 99920.0,
+				"kills": 4,
+				"modifiers": [
+					"pierce",
+					"chain",
+					"aftershock"
+				],
+				"pending": 0,
+				"player": [
+					7.61112499237061,
+					-4.7653021812439
+				],
+				"projectiles": 5,
+				"state": "run",
+				"telemetry": {
+					"boss_phase_two": true,
+					"children_omitted": 0,
+					"deaths": 0,
+					"direct_hits": 194,
+					"max_projectiles": 12,
+					"secondary_hits": 28,
+					"ultimate_spent": 7,
+					"waves_completed": 0
+				},
+				"wave": 6
+			},
+			"label": "combat-after-measurement"
+		}
+	],
+	"scenario": "boss_performance"
+}

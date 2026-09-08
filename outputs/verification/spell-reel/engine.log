@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M5 Pro (Apple9)
+
+Movie Maker mode enabled, recording movie in 1280×720 @ 60 FPS...
+GAME_READY {"renderer":"forward_plus","seed":7331}
+REEL_STAGE 01-lance
+REEL_STAGE 02-crown
+REEL_STAGE 03-cataclysm
+REEL_STAGE 04-fork-chain
+REEL_STAGE 05-pierce-overload
+REEL_STAGE 06-gravity-aftershock
+REEL_STAGE 07-empty-misses
+VISUAL_REEL_RESULT {"capture_failures":[],"passed":true,"rendered":true,"seconds":25.1166666666665,"segments":7}
