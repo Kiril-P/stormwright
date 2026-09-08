@@ -28,6 +28,7 @@ var _reduced_particles := false
 var _reduced_flash := false
 var _light_count := 0
 var _sequence := 0
+var _compatibility := false
 
 
 func _ready() -> void:
@@ -38,8 +39,9 @@ func _ready() -> void:
 func _prepare_materials() -> void:
 	if _energy != null:
 		return
+	_compatibility = RenderingServer.get_current_rendering_method() == "gl_compatibility"
 	_energy = ShaderMaterial.new()
-	_energy.shader = ENERGY_SHADER
+	_energy.shader = _fade_shader(ENERGY_SHADER)
 	_crystal = ShaderMaterial.new()
 	_crystal.shader = CRYSTAL_SHADER
 	_hostile_crystal = ShaderMaterial.new()
@@ -58,7 +60,28 @@ func _prepare_materials() -> void:
 	_dust_sphere.radial_segments = 12
 	_dust_sphere.rings = 6
 	_dust_material = ShaderMaterial.new()
-	_dust_material.shader = DUST_SHADER
+	_dust_material.shader = _fade_shader(DUST_SHADER)
+
+
+func _fade_shader(source: Shader) -> Shader:
+	if not _compatibility:
+		return source
+	# WebGL's small instance-uniform buffer is shared across the scene. Give
+	# each transient effect a normal material uniform instead of consuming it.
+	var shader := Shader.new()
+	shader.code = source.code.replace("instance uniform float opacity", "uniform float opacity")
+	return shader
+
+
+func _effect_material(source: Material, effect: Dictionary) -> Material:
+	if not _compatibility or effect.is_empty() or source not in [_energy, _dust_material]:
+		return source
+	if not effect.has("fade_materials"):
+		effect.fade_materials = {}
+	var id := source.get_instance_id()
+	if not effect.fade_materials.has(id):
+		effect.fade_materials[id] = source.duplicate()
+	return effect.fade_materials[id]
 
 
 func set_quality(reduced_particles: bool, reduced_flash: bool) -> void:
@@ -387,7 +410,13 @@ func _process(delta: float) -> void:
 				opacity = pow(1.0 - t, 2.1) * 0.30
 		for mesh in effect.meshes:
 			if is_instance_valid(mesh):
-				mesh.set_instance_shader_parameter("opacity", opacity)
+				if _compatibility:
+					var material: ShaderMaterial = mesh.material_override
+					material.set_shader_parameter("opacity", opacity)
+					if material.shader == _energy.shader:
+						material.set_shader_parameter("radiance", 0.75 if _reduced_flash else 1.8)
+				else:
+					mesh.set_instance_shader_parameter("opacity", opacity)
 		if effect.has("light") and is_instance_valid(effect.light):
 			effect.light.light_energy = effect.light_energy * pow(1.0 - t, 4.0) * (0.23 if _reduced_flash else 1.0)
 		if effect.has("particles"):
@@ -432,7 +461,7 @@ func _begin(kind: String, life: float, at: Vector3) -> Dictionary:
 func _add_mesh(parent: Node3D, mesh: Mesh, material: Material, effect: Dictionary) -> MeshInstance3D:
 	var instance := MeshInstance3D.new()
 	instance.mesh = mesh
-	instance.material_override = material
+	instance.material_override = _effect_material(material, effect)
 	instance.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	parent.add_child(instance)
 	if not effect.is_empty():
@@ -477,7 +506,7 @@ func _sparks(effect: Dictionary, at: Vector3, axis: Vector3, count: int, power: 
 	mm.instance_count = count
 	var instance := MultiMeshInstance3D.new()
 	instance.multimesh = mm
-	instance.material_override = _energy
+	instance.material_override = _effect_material(_energy, effect)
 	instance.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	effect.root.add_child(instance)
 	effect.meshes.append(instance)
@@ -552,7 +581,7 @@ func _dust(effect: Dictionary, strength: float, count: int) -> void:
 	mm.instance_count = count
 	var instance := MultiMeshInstance3D.new()
 	instance.multimesh = mm
-	instance.material_override = _dust_material
+	instance.material_override = _effect_material(_dust_material, effect)
 	instance.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	effect.root.add_child(instance)
 	effect.meshes.append(instance)
