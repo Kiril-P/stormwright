@@ -19,7 +19,7 @@ Bend three storm spells into your own build and tear through an arena of enemies
 
 Choose from eight modifiers with three equipped slots. Desktop keyboard and mouse are required; mobile touch controls are not implemented.
 
-The hero is a staged Spell Laboratory recording using production spell effects. [Watch the original showcase with sound](outputs/gameplay/spell-showcase.mp4).
+Recorded in the Spell Laboratory. [Watch the original showcase with sound](outputs/gameplay/spell-showcase.mp4).
 
 ## Development
 
