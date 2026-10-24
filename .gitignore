@@ -21,3 +21,4 @@ node_modules/
 export_credentials.cfg
 .vercel
 .env*
+*.TMP
