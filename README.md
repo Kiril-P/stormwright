@@ -4,7 +4,7 @@
 
 Bend three storm spells into your own build and tear through an arena of enemies.
 
-**[▶ Play in browser](https://kpetrovski.me/play/stormwright/)**
+**[▶ Play in browser](https://stormwright.kirilpetrovski.com/)**
 
 ![Stormwright: gravity-well](docs/media/07-stormwright-gravity-well.png)
 
